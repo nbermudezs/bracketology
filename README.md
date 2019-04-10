@@ -41,7 +41,9 @@ takes the bracket input files and estimates the Power Model parameters.
 #### Bracket Pool Generators
 The *generators* directory contains scripts to generate bracket pools using various approaches:
 - *generatorPower.py* supports the generation of bracket pools using one of the five original Power Model variations proposed by (**TODO: add citation**).
-
+- *generatorSA.py* supports the same five variations of the Power Model but also supports the use of different first round probabilities (obtained using Simulated Annealing). 
+The specific probability values used are described in **TODO: add citation**.
+- *generatorBitwise.py* can be used to generate brackets were each bit is calculated solely based on the MLE of each bit, without using seed information as in the Power Model.
 
 ### Contribution Guidelines
 **...TODO...**
