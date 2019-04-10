@@ -45,5 +45,36 @@ The *generators* directory contains scripts to generate bracket pools using vari
 The specific probability values used are described in **TODO: add citation**.
 - *generatorBitwise.py* can be used to generate brackets were each bit is calculated solely based on the MLE of each bit, without using seed information as in the Power Model.
 
+All these models share the same structure and accept the same 
+bash options:
+```
+python <generator.py> <numTrials> <numBatches> <modelsFilepath>
+```
+where *numTrials* is the size of the bracket pool, *numBatches* is the number of replications, each of which generates an entire bracket pool of size *numTrials*, and *modelsFilepath* is the relative path to a JSON file
+that specifies the model parameters for the generator.
+
+#### Model Evaluation and Comparison
+It is of interest to assess the quality of a bracket pool and use these metrics to 
+compare multiple models. 
+
+(**TODO: add citation**) defines two performance metrics for a bracket pool: the Max Score and the EPSN Count, i.e., the number of brackets in the pool that have an ESPN score at least as good as the worst bracket in the ESPN Top 100 Leaderboard.
+The *generators/scoringUtils.py* script implements the ESPN scoring function, which is used by the *summarizeBracketPools.py* script
+to calculate summary statistics, the Max Score, and ESPN Count metrics for each bracket pool.
+The *summarizeBracketPools.py* script can be executed as
+```
+python summarizeBracketPools.py <numTrials> <numBatches> <modelsFilepath> <outputDir>
+```
+where *numTrials*, *numBatches* and *modelsFilepath* should be the same used when generating the bracket and *outputDir* must be a relative path to a directory (may not exist) where
+the files summarizing the bracket pools would be stored.
+
+Once each bracket pool is analyzed by the *summarizeBracketPools.py* script, we use a Multiple Comparison with the Best (MCB) method to compare the models between each other.
+The output of *summarizeBracketPools.py* is fed into the *prepareForMCB.py* script as a preprocessing step by executing
+```
+python prepareForMCB.py <numTrials> <metric> <batchStart> <batchEnd> <summaryDir>
+```
+where *numTrials* should match the one used for the other scripts, *metric* can take the **ESPN** or **Max score** values, to tabulate the ESPN count or Max score metrics, respectively, *batchStart* and *batchEnd* determine which batches should be summarize -- in practice, *batchStart*=0 and *batchEnd*=*numBatches*-1 are the most common values. Finally, the *summaryDir* is the relative path to the directory 
+where the output of *summarizeBracketPools.py* was stored.
+
+
 ### Contribution Guidelines
 **...TODO...**
