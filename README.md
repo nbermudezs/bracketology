@@ -114,6 +114,7 @@ where the output of *summarizeBracketPools.py* was stored.
 into the new format that contains only the scores of the brackets.
 - *generators/utils/tripletsUniformityTest.py* performs a Chi-square test over the distribution of values of triplets of bits to check whether their distribution seems uniform.
 - *generators/utils/preprocessForBradleyTerry.py* takes the historical brackets and creates the summary necessary to fit the Bradley-Terry model (winning records for each seed match-up).
+- *generators/utils/isomorphismTest.py* can be used to check whether the vector encoding of a bracket is isomorphic (i.e., the bit distribution is the same across permutations of the regions).
 
 
 #### Visualization
