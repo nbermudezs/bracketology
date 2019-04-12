@@ -125,6 +125,7 @@ into the new format that contains only the scores of the brackets.
 check if the observed distribution of a triplet (or path) is statistically equivalent to the distribution obtained by independently looking at the three bits that constitute the triplet (or path).
 The groups of bits analyzed by these scripts are within a single region. It is also of interest to look at triplets or paths that involve the bits after the Final Four round. The analysis for these groups is
 done in *generators/utils/nonRegionalTripletDist.py*.
+- *generators/utils/upsetDist.py* computes and plots the number of upsets on each of the first round of the tournament.
 
 #### Visualization
 The `generators/viz` directory contains scripts to plot score distributions, boxplots for model comparison, and triplet distributions.
