@@ -81,7 +81,16 @@ The models file is a JSON document containing a list of models, each of which ad
   ],
   "non-regional-paths": [
     "str"
-  ]
+  ],
+  "perturbation": {
+    "alphaMLEprobs": "str",
+    "rounds": [
+      "int"
+    ],
+    "trunc": "bool",
+    "percent": "float",
+    "type": "str"
+  }
 }
 ```
 where the value in the snippet above indicates the data type of the attribute and the square brackets around it indicate that the field is optional.
@@ -107,6 +116,11 @@ For more details, see `doc triplets and paths.pdf`.
 - `non-regional-triplets` same as `triplets` but for the triplets that involve the last rounds: NCG, R4_R5_1, R4_R5_2.
 - `paths` each element is one of 12 possible 3bit paths: P_S1, P_S2, P_S3, P_S4, P_S5, P_S6, P_S7, P_S8, P_R2_1, P_R2_2, P_R2_3, P_R2_4.
 - `non-regional-paths` list of 3bit paths from P_R4_R6_1, P_R4_R6_2, P_R4_R6_3, P_R4_R6_4, P_R3_R5_1, P_R3_R5_2, P_R3_R5_3, P_R3_R5_4, P_R3_R5_5, P_R3_R5_6, P_R3_R5_7, P_R3_R5_8.
+- `perturbation` is an object that specifies the type of perturbation that can be applied to the Power Model. In particular, two types of perturbation can be used: (i) a perturbation in the 
+observed MLE winning probabilities that are used to calculate the Power Model parameters ($alpha$ values), and (ii) the parameter of the truncated geometric distributions used for the 
+backward models (i.e., E8, NCG, F4_A, F4_B). In the first case, the attributes **alphaMLEprobs** and **rounds** need to be specified; **alphaMLEprobs** accepts "fixed10" and "fixed20" values and **rounds** can be one or more of the rounds 2 through 6.
+In the case of the backwards models, three attributes need to be specified **percent**, **type** and **trunc** (must be set to **true**). The type can be either "fixed" or "rv" (which adds a randomly sampled noise) and **percent** 
+specifies the amount of perturbation. For example, **percent**=0.1 and **type**="rv" determines a perturbation around the original probability value that follows a uniform distribution between 0 and 10% of the original probability value.
 
 #### Model Evaluation and Comparison
 It is of interest to assess the quality of a bracket pool and use these metrics to 
