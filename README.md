@@ -52,6 +52,8 @@ A detailed explanation of these paths and triplets can be found in [this pdf](do
 In particular, the Bradley-Terry generator requires winning probabilities that are computed by first executing the *generators/utils/preprocessForBradleyTerry.py* script, followed by the *generators/fitBradleyTerry.py* script.
 - *generatorBinomial.py* supports the same generation options as *generatorBitwise.py* but determines the 
 number of upsets between seed $i$ and $17-i$ in the first round of the tournament by sampling from a binomial distribution between 0 and 4. Once the number of upsets has been sampled, the regions that will observe the upset are selected randomly with a uniform distribution.
+- *generatorConditional.py* can generate brackets with and without triplets and modified first round probabilities but it also supports backwards generation that can result in some bits of the triplets and paths to be locked in. 
+Then, the remaining bits of said triplets/paths are filled from a conditional probability table based on the locked in bits.
 
 All these models share the same structure and accept the same 
 bash options:
@@ -110,7 +112,7 @@ the generator to create brackets backwards; in particular, it determines the see
 round of the tournament. The `annealing_model` can be used to tell the generator to use a particular set of these probabilities instead of the MLE probabilities. 
 This attribute allows one of ten values: 25_1985, 26_1985, 27_1985, 28_1985, 29_1985, 30_1985, 31_1985, 28_2002, 29_2002, 30_2002.
 - `format` determines the outcome encoding used for the vector representation of the bracket. Currently, only **TTT** is supported for both generation and scoring of brackets.
-The generators can create brackets using the **FFF** encoding but the scoring function needs to be updated to support the scoring of this definition.
+The generators can create brackets using the **FFF** encoding but some of the generators don't support the new scoring function, namely, the *generatorPower.py* and *generatorBradleyTerry.py*. The other scripts fully support FFF but no experiments have been performed with it.
 - `triplets` specifies a list of triplet names whose bits will be determined from the distribution of the triplet values and not at a bitwise level. There are seven regional triplets: E8_F4, S16_E8_1, S16_E8_2, R1_R2_1, R1_R2_2, R1_R2_3, and R1_R2_4. 
 For more details, see `doc triplets and paths.pdf`.
 - `non-regional-triplets` same as `triplets` but for the triplets that involve the last rounds: NCG, R4_R5_1, R4_R5_2.
