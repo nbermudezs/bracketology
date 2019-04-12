@@ -121,7 +121,8 @@ into the new format that contains only the scores of the brackets.
 - *generators/utils/tripletsUniformityTest.py* performs a Chi-square test over the distribution of values of triplets of bits to check whether their distribution seems uniform.
 - *generators/utils/preprocessForBradleyTerry.py* takes the historical brackets and creates the summary necessary to fit the Bradley-Terry model (winning records for each seed match-up).
 - *generators/utils/isomorphismTest.py* can be used to check whether the vector encoding of a bracket is isomorphic (i.e., the bit distribution is the same across permutations of the regions).
-
+- *generators/utils/tripletDist.py* and *generators/utils/3bitPathDist.py* perform a Chi-square and a 3-way Fisher's exact test over all triplets and 3bit paths, respectively, to
+check if the observed distribution of a triplet (or path) is statistically equivalent to the distribution obtained by independently looking at the three bits that constitute the triplet (or path).
 
 #### Visualization
 The `generators/viz` directory contains scripts to plot score distributions, boxplots for model comparison, and triplet distributions.
