@@ -1,0 +1,2628 @@
+{
+    "models": [
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_2", 
+            "modelName": "modelAllPaths36", 
+            "non-regional-paths": [
+                "P_R3_R5_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_4", 
+            "modelName": "modelAllPaths38", 
+            "non-regional-paths": [
+                "P_R3_R5_4"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_6", 
+            "modelName": "modelAllPaths40", 
+            "non-regional-paths": [
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_8", 
+            "modelName": "modelAllPaths42", 
+            "non-regional-paths": [
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R4_R6_1", 
+            "modelName": "modelAllPaths43", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R4_R6_2", 
+            "modelName": "modelAllPaths44", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R4_R6_3", 
+            "modelName": "modelAllPaths45", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R4_R6_4", 
+            "modelName": "modelAllPaths46", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_1", 
+            "modelName": "modelAllPaths57", 
+            "non-regional-paths": [
+                "P_R3_R5_1"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_3", 
+            "modelName": "modelAllPaths59", 
+            "non-regional-paths": [
+                "P_R3_R5_3"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_5", 
+            "modelName": "modelAllPaths61", 
+            "non-regional-paths": [
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_7", 
+            "modelName": "modelAllPaths63", 
+            "non-regional-paths": [
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R4_R6_1", 
+            "modelName": "modelAllPaths65", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R4_R6_2", 
+            "modelName": "modelAllPaths66", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R4_R6_3", 
+            "modelName": "modelAllPaths67", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R4_R6_4", 
+            "modelName": "modelAllPaths68", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_1", 
+            "modelName": "modelAllPaths78", 
+            "non-regional-paths": [
+                "P_R3_R5_1"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_3", 
+            "modelName": "modelAllPaths80", 
+            "non-regional-paths": [
+                "P_R3_R5_3"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_5", 
+            "modelName": "modelAllPaths82", 
+            "non-regional-paths": [
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_7", 
+            "modelName": "modelAllPaths84", 
+            "non-regional-paths": [
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R4_R6_1", 
+            "modelName": "modelAllPaths86", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R4_R6_2", 
+            "modelName": "modelAllPaths87", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R4_R6_3", 
+            "modelName": "modelAllPaths88", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R4_R6_4", 
+            "modelName": "modelAllPaths89", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_2", 
+            "modelName": "modelAllPaths99", 
+            "non-regional-paths": [
+                "P_R3_R5_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_4", 
+            "modelName": "modelAllPaths101", 
+            "non-regional-paths": [
+                "P_R3_R5_4"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_6", 
+            "modelName": "modelAllPaths103", 
+            "non-regional-paths": [
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_8", 
+            "modelName": "modelAllPaths105", 
+            "non-regional-paths": [
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R4_R6_1", 
+            "modelName": "modelAllPaths106", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R4_R6_2", 
+            "modelName": "modelAllPaths107", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R4_R6_3", 
+            "modelName": "modelAllPaths108", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R4_R6_4", 
+            "modelName": "modelAllPaths109", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_2", 
+            "modelName": "modelAllPaths118", 
+            "non-regional-paths": [
+                "P_R3_R5_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_4", 
+            "modelName": "modelAllPaths120", 
+            "non-regional-paths": [
+                "P_R3_R5_4"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_6", 
+            "modelName": "modelAllPaths122", 
+            "non-regional-paths": [
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_8", 
+            "modelName": "modelAllPaths124", 
+            "non-regional-paths": [
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R4_R6_1", 
+            "modelName": "modelAllPaths125", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R4_R6_2", 
+            "modelName": "modelAllPaths126", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R4_R6_3", 
+            "modelName": "modelAllPaths127", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R4_R6_4", 
+            "modelName": "modelAllPaths128", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_1", 
+            "modelName": "modelAllPaths135", 
+            "non-regional-paths": [
+                "P_R3_R5_1"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_3", 
+            "modelName": "modelAllPaths137", 
+            "non-regional-paths": [
+                "P_R3_R5_3"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_5", 
+            "modelName": "modelAllPaths139", 
+            "non-regional-paths": [
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_7", 
+            "modelName": "modelAllPaths141", 
+            "non-regional-paths": [
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R4_R6_1", 
+            "modelName": "modelAllPaths143", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R4_R6_2", 
+            "modelName": "modelAllPaths144", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R4_R6_3", 
+            "modelName": "modelAllPaths145", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R4_R6_4", 
+            "modelName": "modelAllPaths146", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_1", 
+            "modelName": "modelAllPaths152", 
+            "non-regional-paths": [
+                "P_R3_R5_1"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_3", 
+            "modelName": "modelAllPaths154", 
+            "non-regional-paths": [
+                "P_R3_R5_3"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_5", 
+            "modelName": "modelAllPaths156", 
+            "non-regional-paths": [
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_7", 
+            "modelName": "modelAllPaths158", 
+            "non-regional-paths": [
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R4_R6_1", 
+            "modelName": "modelAllPaths160", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R4_R6_2", 
+            "modelName": "modelAllPaths161", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R4_R6_3", 
+            "modelName": "modelAllPaths162", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R4_R6_4", 
+            "modelName": "modelAllPaths163", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_2", 
+            "modelName": "modelAllPaths169", 
+            "non-regional-paths": [
+                "P_R3_R5_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_4", 
+            "modelName": "modelAllPaths171", 
+            "non-regional-paths": [
+                "P_R3_R5_4"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_6", 
+            "modelName": "modelAllPaths173", 
+            "non-regional-paths": [
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_8", 
+            "modelName": "modelAllPaths175", 
+            "non-regional-paths": [
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R4_R6_1", 
+            "modelName": "modelAllPaths176", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R4_R6_2", 
+            "modelName": "modelAllPaths177", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R4_R6_3", 
+            "modelName": "modelAllPaths178", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R4_R6_4", 
+            "modelName": "modelAllPaths179", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,P_R4_R6_1", 
+            "modelName": "modelAllPaths318", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,P_R4_R6_2", 
+            "modelName": "modelAllPaths319", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,P_R4_R6_3", 
+            "modelName": "modelAllPaths320", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,P_R4_R6_4", 
+            "modelName": "modelAllPaths321", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,P_R4_R6_1", 
+            "modelName": "modelAllPaths339", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,P_R4_R6_2", 
+            "modelName": "modelAllPaths340", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,P_R4_R6_3", 
+            "modelName": "modelAllPaths341", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,P_R4_R6_4", 
+            "modelName": "modelAllPaths342", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,P_R4_R6_1", 
+            "modelName": "modelAllPaths396", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,P_R4_R6_2", 
+            "modelName": "modelAllPaths397", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,P_R4_R6_3", 
+            "modelName": "modelAllPaths398", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,P_R4_R6_4", 
+            "modelName": "modelAllPaths399", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,P_R4_R6_1", 
+            "modelName": "modelAllPaths413", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,P_R4_R6_2", 
+            "modelName": "modelAllPaths414", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,P_R4_R6_3", 
+            "modelName": "modelAllPaths415", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,P_R4_R6_4", 
+            "modelName": "modelAllPaths416", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_2,P_R3_R5_6", 
+            "modelName": "modelAllPaths501", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_2,P_R3_R5_8", 
+            "modelName": "modelAllPaths503", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_2,P_R4_R6_3", 
+            "modelName": "modelAllPaths506", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_2,P_R4_R6_4", 
+            "modelName": "modelAllPaths507", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_4,P_R3_R5_6", 
+            "modelName": "modelAllPaths518", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_4,P_R3_R5_8", 
+            "modelName": "modelAllPaths520", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_4,P_R4_R6_3", 
+            "modelName": "modelAllPaths523", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_4,P_R4_R6_4", 
+            "modelName": "modelAllPaths524", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_6,P_R4_R6_1", 
+            "modelName": "modelAllPaths534", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_6,P_R4_R6_2", 
+            "modelName": "modelAllPaths535", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_8,P_R4_R6_1", 
+            "modelName": "modelAllPaths543", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R3_R5_8,P_R4_R6_2", 
+            "modelName": "modelAllPaths544", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,P_R4_R6_1", 
+            "modelName": "modelAllPaths590", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,P_R4_R6_2", 
+            "modelName": "modelAllPaths591", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,P_R4_R6_3", 
+            "modelName": "modelAllPaths592", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,P_R4_R6_4", 
+            "modelName": "modelAllPaths593", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,P_R4_R6_1", 
+            "modelName": "modelAllPaths609", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,P_R4_R6_2", 
+            "modelName": "modelAllPaths610", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,P_R4_R6_3", 
+            "modelName": "modelAllPaths611", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,P_R4_R6_4", 
+            "modelName": "modelAllPaths612", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,P_R4_R6_1", 
+            "modelName": "modelAllPaths660", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,P_R4_R6_2", 
+            "modelName": "modelAllPaths661", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,P_R4_R6_3", 
+            "modelName": "modelAllPaths662", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,P_R4_R6_4", 
+            "modelName": "modelAllPaths663", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_1,P_R3_R5_5", 
+            "modelName": "modelAllPaths721", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_1,P_R3_R5_7", 
+            "modelName": "modelAllPaths723", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_1,P_R4_R6_3", 
+            "modelName": "modelAllPaths727", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_1,P_R4_R6_4", 
+            "modelName": "modelAllPaths728", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_3,P_R3_R5_5", 
+            "modelName": "modelAllPaths740", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_3,P_R3_R5_7", 
+            "modelName": "modelAllPaths742", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_3,P_R4_R6_3", 
+            "modelName": "modelAllPaths746", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_3,P_R4_R6_4", 
+            "modelName": "modelAllPaths747", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_5,P_R4_R6_1", 
+            "modelName": "modelAllPaths759", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_5,P_R4_R6_2", 
+            "modelName": "modelAllPaths760", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_7,P_R4_R6_1", 
+            "modelName": "modelAllPaths770", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R3_R5_7,P_R4_R6_2", 
+            "modelName": "modelAllPaths771", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,P_R4_R6_1", 
+            "modelName": "modelAllPaths800", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,P_R4_R6_2", 
+            "modelName": "modelAllPaths801", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,P_R4_R6_3", 
+            "modelName": "modelAllPaths802", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,P_R4_R6_4", 
+            "modelName": "modelAllPaths803", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,P_R4_R6_1", 
+            "modelName": "modelAllPaths819", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,P_R4_R6_2", 
+            "modelName": "modelAllPaths820", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,P_R4_R6_3", 
+            "modelName": "modelAllPaths821", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,P_R4_R6_4", 
+            "modelName": "modelAllPaths822", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,P_R4_R6_1", 
+            "modelName": "modelAllPaths870", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,P_R4_R6_2", 
+            "modelName": "modelAllPaths871", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,P_R4_R6_3", 
+            "modelName": "modelAllPaths872", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,P_R4_R6_4", 
+            "modelName": "modelAllPaths873", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_1,P_R3_R5_5", 
+            "modelName": "modelAllPaths931", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_1,P_R3_R5_7", 
+            "modelName": "modelAllPaths933", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_1,P_R4_R6_3", 
+            "modelName": "modelAllPaths937", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_1,P_R4_R6_4", 
+            "modelName": "modelAllPaths938", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_3,P_R3_R5_5", 
+            "modelName": "modelAllPaths950", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_3,P_R3_R5_7", 
+            "modelName": "modelAllPaths952", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_3,P_R4_R6_3", 
+            "modelName": "modelAllPaths956", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_3,P_R4_R6_4", 
+            "modelName": "modelAllPaths957", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_5,P_R4_R6_1", 
+            "modelName": "modelAllPaths969", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_5,P_R4_R6_2", 
+            "modelName": "modelAllPaths970", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_7,P_R4_R6_1", 
+            "modelName": "modelAllPaths980", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R3_R5_7,P_R4_R6_2", 
+            "modelName": "modelAllPaths981", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,P_R4_R6_1", 
+            "modelName": "modelAllPaths1027", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,P_R4_R6_2", 
+            "modelName": "modelAllPaths1028", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,P_R4_R6_3", 
+            "modelName": "modelAllPaths1029", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,P_R4_R6_4", 
+            "modelName": "modelAllPaths1030", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,P_R4_R6_1", 
+            "modelName": "modelAllPaths1044", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,P_R4_R6_2", 
+            "modelName": "modelAllPaths1045", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,P_R4_R6_3", 
+            "modelName": "modelAllPaths1046", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,P_R4_R6_4", 
+            "modelName": "modelAllPaths1047", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_2,P_R3_R5_6", 
+            "modelName": "modelAllPaths1132", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_2,P_R3_R5_8", 
+            "modelName": "modelAllPaths1134", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_2,P_R4_R6_3", 
+            "modelName": "modelAllPaths1137", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_2,P_R4_R6_4", 
+            "modelName": "modelAllPaths1138", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_4,P_R3_R5_6", 
+            "modelName": "modelAllPaths1149", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_4,P_R3_R5_8", 
+            "modelName": "modelAllPaths1151", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_4,P_R4_R6_3", 
+            "modelName": "modelAllPaths1154", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_4,P_R4_R6_4", 
+            "modelName": "modelAllPaths1155", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_6,P_R4_R6_1", 
+            "modelName": "modelAllPaths1165", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_6,P_R4_R6_2", 
+            "modelName": "modelAllPaths1166", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_8,P_R4_R6_1", 
+            "modelName": "modelAllPaths1174", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R3_R5_8,P_R4_R6_2", 
+            "modelName": "modelAllPaths1175", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,P_R4_R6_1", 
+            "modelName": "modelAllPaths1198", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,P_R4_R6_2", 
+            "modelName": "modelAllPaths1199", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,P_R4_R6_3", 
+            "modelName": "modelAllPaths1200", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,P_R4_R6_4", 
+            "modelName": "modelAllPaths1201", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,P_R4_R6_1", 
+            "modelName": "modelAllPaths1215", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,P_R4_R6_2", 
+            "modelName": "modelAllPaths1216", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,P_R4_R6_3", 
+            "modelName": "modelAllPaths1217", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,P_R4_R6_4", 
+            "modelName": "modelAllPaths1218", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_2,P_R3_R5_6", 
+            "modelName": "modelAllPaths1303", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_2,P_R3_R5_8", 
+            "modelName": "modelAllPaths1305", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_2,P_R4_R6_3", 
+            "modelName": "modelAllPaths1308", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_2,P_R4_R6_4", 
+            "modelName": "modelAllPaths1309", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_4,P_R3_R5_6", 
+            "modelName": "modelAllPaths1320", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_4,P_R3_R5_8", 
+            "modelName": "modelAllPaths1322", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_4,P_R4_R6_3", 
+            "modelName": "modelAllPaths1325", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_4,P_R4_R6_4", 
+            "modelName": "modelAllPaths1326", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_6,P_R4_R6_1", 
+            "modelName": "modelAllPaths1336", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_6,P_R4_R6_2", 
+            "modelName": "modelAllPaths1337", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_8,P_R4_R6_1", 
+            "modelName": "modelAllPaths1345", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R3_R5_8,P_R4_R6_2", 
+            "modelName": "modelAllPaths1346", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,P_R4_R6_1", 
+            "modelName": "modelAllPaths1384", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,P_R4_R6_2", 
+            "modelName": "modelAllPaths1385", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,P_R4_R6_3", 
+            "modelName": "modelAllPaths1386", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,P_R4_R6_4", 
+            "modelName": "modelAllPaths1387", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_1,P_R3_R5_5", 
+            "modelName": "modelAllPaths1445", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_1,P_R3_R5_7", 
+            "modelName": "modelAllPaths1447", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_1,P_R4_R6_3", 
+            "modelName": "modelAllPaths1451", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_1,P_R4_R6_4", 
+            "modelName": "modelAllPaths1452", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_3,P_R3_R5_5", 
+            "modelName": "modelAllPaths1464", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_3,P_R3_R5_7", 
+            "modelName": "modelAllPaths1466", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_3,P_R4_R6_3", 
+            "modelName": "modelAllPaths1470", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_3,P_R4_R6_4", 
+            "modelName": "modelAllPaths1471", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_5,P_R4_R6_1", 
+            "modelName": "modelAllPaths1483", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_5,P_R4_R6_2", 
+            "modelName": "modelAllPaths1484", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_7,P_R4_R6_1", 
+            "modelName": "modelAllPaths1494", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R3_R5_7,P_R4_R6_2", 
+            "modelName": "modelAllPaths1495", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,P_R4_R6_1", 
+            "modelName": "modelAllPaths1520", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,P_R4_R6_2", 
+            "modelName": "modelAllPaths1521", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,P_R4_R6_3", 
+            "modelName": "modelAllPaths1522", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,P_R4_R6_4", 
+            "modelName": "modelAllPaths1523", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_1,P_R3_R5_5", 
+            "modelName": "modelAllPaths1581", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_1,P_R3_R5_7", 
+            "modelName": "modelAllPaths1583", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_1,P_R4_R6_3", 
+            "modelName": "modelAllPaths1587", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_1,P_R4_R6_4", 
+            "modelName": "modelAllPaths1588", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_3,P_R3_R5_5", 
+            "modelName": "modelAllPaths1600", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_5"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_3,P_R3_R5_7", 
+            "modelName": "modelAllPaths1602", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_7"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_3,P_R4_R6_3", 
+            "modelName": "modelAllPaths1606", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_3,P_R4_R6_4", 
+            "modelName": "modelAllPaths1607", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_5,P_R4_R6_1", 
+            "modelName": "modelAllPaths1619", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_5,P_R4_R6_2", 
+            "modelName": "modelAllPaths1620", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_7,P_R4_R6_1", 
+            "modelName": "modelAllPaths1630", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R3_R5_7,P_R4_R6_2", 
+            "modelName": "modelAllPaths1631", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_2,P_R3_R5_6", 
+            "modelName": "modelAllPaths1712", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_2,P_R3_R5_8", 
+            "modelName": "modelAllPaths1714", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_2,P_R4_R6_3", 
+            "modelName": "modelAllPaths1717", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_2,P_R4_R6_4", 
+            "modelName": "modelAllPaths1718", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_4,P_R3_R5_6", 
+            "modelName": "modelAllPaths1729", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_6"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_4,P_R3_R5_8", 
+            "modelName": "modelAllPaths1731", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_8"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_4,P_R4_R6_3", 
+            "modelName": "modelAllPaths1734", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_3"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_4,P_R4_R6_4", 
+            "modelName": "modelAllPaths1735", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_4"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_6,P_R4_R6_1", 
+            "modelName": "modelAllPaths1745", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_6,P_R4_R6_2", 
+            "modelName": "modelAllPaths1746", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_8,P_R4_R6_1", 
+            "modelName": "modelAllPaths1754", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_1"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R3_R5_8,P_R4_R6_2", 
+            "modelName": "modelAllPaths1755", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }
+    ]
+}

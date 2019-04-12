@@ -1,0 +1,1384 @@
+{
+    "models": [
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets26", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets27", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets28", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets39", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets40", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets41", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets51", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets52", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets53", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets62", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets63", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets64", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets72", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets73", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets74", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets81", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets82", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets83", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets89", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets90", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets91", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets96", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets97", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets98", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_R2_1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets102", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_R2_2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets107", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_R2_3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets111", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_R2_4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets114", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets130", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets131", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets132", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets142", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets143", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets144", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets172", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets173", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets174", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets180", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets181", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets182", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R2_3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets202", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_R2_4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets205", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets210", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets231", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets232", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets233", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets241", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets242", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets243", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets265", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets266", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets267", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R2_1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets271", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_R2_2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets276", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets288", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets297", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets298", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets299", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets307", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets308", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets309", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets331", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets332", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets333", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R2_1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets337", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_R2_2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets342", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets354", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets371", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets372", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets373", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets379", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets380", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets381", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R2_3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets401", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_R2_4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets404", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets409", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets416", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets417", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets418", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets424", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets425", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets426", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R2_3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets446", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_R2_4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets449", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets454", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets467", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets468", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets469", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R2_1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets473", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_R2_2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets478", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets490", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets495", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,R4_R5_1", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets496", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets497", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R2_1,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets501", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_R2_2,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets506", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets518", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R2_3,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets531", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S8", 
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,P_R2_4,NCG", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets534", 
+            "non-regional-triplets": [
+                "NCG"
+            ], 
+            "paths": [
+                "P_S8", 
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S8,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets539", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets652", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S3,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets718", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S6,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets854", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S1,P_S7,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets882", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S1", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S4,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1059", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S5,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1104", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S2,P_S8,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1189", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S2", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S4,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1279", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S5,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1324", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S5"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S3,P_S8,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1409", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S3", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S6,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1525", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S4,P_S7,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1553", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S4", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S6,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1645", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S6"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S5,P_S7,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1673", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S5", 
+                "P_S7"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S6,P_S8,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1778", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S6", 
+                "P_S8"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets P_S7,P_S8,R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalPathAndNonRegionalTriplets1834", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "paths": [
+                "P_S7", 
+                "P_S8"
+            ]
+        }
+    ]
+}

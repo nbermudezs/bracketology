@@ -1,0 +1,37 @@
+{
+    "models": [
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets NCG", 
+            "modelName": "modelRegionalTriplets0", 
+            "non-regional-triplets": [
+                "NCG"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1", 
+            "modelName": "modelRegionalTriplets1", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_2", 
+            "modelName": "modelRegionalTriplets2", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1,R4_R5_2", 
+            "modelName": "modelRegionalTriplets5", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ]
+        }
+    ]
+}

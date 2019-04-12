@@ -1,0 +1,523 @@
+{
+    "models": [
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + SA_E8", 
+            "modelName": "modelSA_E8_bitwise_paths"
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R2_1", 
+            "modelName": "modelSA_E8_0_bitwise_paths", 
+            "paths": [
+                "P_R2_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R2_2", 
+            "modelName": "modelSA_E8_1_bitwise_paths", 
+            "paths": [
+                "P_R2_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R2_3", 
+            "modelName": "modelSA_E8_2_bitwise_paths", 
+            "paths": [
+                "P_R2_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R2_4", 
+            "modelName": "modelSA_E8_3_bitwise_paths", 
+            "paths": [
+                "P_R2_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1", 
+            "modelName": "modelSA_E8_4_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2", 
+            "modelName": "modelSA_E8_5_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3", 
+            "modelName": "modelSA_E8_6_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4", 
+            "modelName": "modelSA_E8_7_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_5", 
+            "modelName": "modelSA_E8_8_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_5"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_6", 
+            "modelName": "modelSA_E8_9_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_6"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_7", 
+            "modelName": "modelSA_E8_10_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_7"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_8", 
+            "modelName": "modelSA_E8_11_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_8"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R4_R6_1", 
+            "modelName": "modelSA_E8_12_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R4_R6_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R4_R6_2", 
+            "modelName": "modelSA_E8_13_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R4_R6_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R4_R6_3", 
+            "modelName": "modelSA_E8_14_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R4_R6_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R4_R6_4", 
+            "modelName": "modelSA_E8_15_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R4_R6_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R3_R5_5", 
+            "modelName": "modelSA_E8_73_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_5"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R3_R5_6", 
+            "modelName": "modelSA_E8_74_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_6"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R3_R5_7", 
+            "modelName": "modelSA_E8_75_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_7"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R3_R5_8", 
+            "modelName": "modelSA_E8_76_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R3_R5_8"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R4_R6_3", 
+            "modelName": "modelSA_E8_79_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_1,P_R4_R6_4", 
+            "modelName": "modelSA_E8_80_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_1", 
+                "P_R4_R6_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R3_R5_5", 
+            "modelName": "modelSA_E8_83_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_5"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R3_R5_6", 
+            "modelName": "modelSA_E8_84_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_6"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R3_R5_7", 
+            "modelName": "modelSA_E8_85_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_7"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R3_R5_8", 
+            "modelName": "modelSA_E8_86_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R3_R5_8"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R4_R6_3", 
+            "modelName": "modelSA_E8_89_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_2,P_R4_R6_4", 
+            "modelName": "modelSA_E8_90_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_2", 
+                "P_R4_R6_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R3_R5_5", 
+            "modelName": "modelSA_E8_92_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_5"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R3_R5_6", 
+            "modelName": "modelSA_E8_93_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_6"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R3_R5_7", 
+            "modelName": "modelSA_E8_94_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_7"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R3_R5_8", 
+            "modelName": "modelSA_E8_95_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R3_R5_8"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R4_R6_3", 
+            "modelName": "modelSA_E8_98_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_3,P_R4_R6_4", 
+            "modelName": "modelSA_E8_99_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_3", 
+                "P_R4_R6_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R3_R5_5", 
+            "modelName": "modelSA_E8_100_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_5"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R3_R5_6", 
+            "modelName": "modelSA_E8_101_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_6"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R3_R5_7", 
+            "modelName": "modelSA_E8_102_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_7"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R3_R5_8", 
+            "modelName": "modelSA_E8_103_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R3_R5_8"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R4_R6_3", 
+            "modelName": "modelSA_E8_106_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_3"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_4,P_R4_R6_4", 
+            "modelName": "modelSA_E8_107_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_4", 
+                "P_R4_R6_4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_5,P_R4_R6_1", 
+            "modelName": "modelSA_E8_111_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_5,P_R4_R6_2", 
+            "modelName": "modelSA_E8_112_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_5", 
+                "P_R4_R6_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_6,P_R4_R6_1", 
+            "modelName": "modelSA_E8_117_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_6,P_R4_R6_2", 
+            "modelName": "modelSA_E8_118_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_6", 
+                "P_R4_R6_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_7,P_R4_R6_1", 
+            "modelName": "modelSA_E8_122_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_7,P_R4_R6_2", 
+            "modelName": "modelSA_E8_123_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_7", 
+                "P_R4_R6_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_8,P_R4_R6_1", 
+            "modelName": "modelSA_E8_126_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "endModel": "E8", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets P_R3_R5_8,P_R4_R6_2", 
+            "modelName": "modelSA_E8_127_bitwise_paths", 
+            "non-regional-paths": [
+                "P_R3_R5_8", 
+                "P_R4_R6_2"
+            ]
+        }
+    ]
+}

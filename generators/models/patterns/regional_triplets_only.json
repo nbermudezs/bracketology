@@ -1,0 +1,382 @@
+{
+    "models": [
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1", 
+            "modelName": "modelRegionalTriplets0", 
+            "triplets": [
+                "R1_R2_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2", 
+            "modelName": "modelRegionalTriplets1", 
+            "triplets": [
+                "R1_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3", 
+            "modelName": "modelRegionalTriplets2", 
+            "triplets": [
+                "R1_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_4", 
+            "modelName": "modelRegionalTriplets3", 
+            "triplets": [
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1", 
+            "modelName": "modelRegionalTriplets4", 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2", 
+            "modelName": "modelRegionalTriplets5", 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets E8_F4", 
+            "modelName": "modelRegionalTriplets6", 
+            "triplets": [
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2", 
+            "modelName": "modelRegionalTriplets7", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3", 
+            "modelName": "modelRegionalTriplets8", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4", 
+            "modelName": "modelRegionalTriplets9", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,S16_E8_2", 
+            "modelName": "modelRegionalTriplets11", 
+            "triplets": [
+                "R1_R2_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,E8_F4", 
+            "modelName": "modelRegionalTriplets12", 
+            "triplets": [
+                "R1_R2_1", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3", 
+            "modelName": "modelRegionalTriplets13", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4", 
+            "modelName": "modelRegionalTriplets14", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,S16_E8_2", 
+            "modelName": "modelRegionalTriplets16", 
+            "triplets": [
+                "R1_R2_2", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,E8_F4", 
+            "modelName": "modelRegionalTriplets17", 
+            "triplets": [
+                "R1_R2_2", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4", 
+            "modelName": "modelRegionalTriplets18", 
+            "triplets": [
+                "R1_R2_3", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3,S16_E8_1", 
+            "modelName": "modelRegionalTriplets19", 
+            "triplets": [
+                "R1_R2_3", 
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3,E8_F4", 
+            "modelName": "modelRegionalTriplets21", 
+            "triplets": [
+                "R1_R2_3", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_4,S16_E8_1", 
+            "modelName": "modelRegionalTriplets22", 
+            "triplets": [
+                "R1_R2_4", 
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets24", 
+            "triplets": [
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2", 
+            "modelName": "modelRegionalTriplets25", 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3", 
+            "modelName": "modelRegionalTriplets28", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_3"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_4", 
+            "modelName": "modelRegionalTriplets29", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,S16_E8_2", 
+            "modelName": "modelRegionalTriplets31", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,E8_F4", 
+            "modelName": "modelRegionalTriplets32", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,R1_R2_4", 
+            "modelName": "modelRegionalTriplets33", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_3", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,E8_F4", 
+            "modelName": "modelRegionalTriplets36", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_3", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets39", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,R1_R2_4", 
+            "modelName": "modelRegionalTriplets43", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,E8_F4", 
+            "modelName": "modelRegionalTriplets46", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets49", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,S16_E8_1", 
+            "modelName": "modelRegionalTriplets53", 
+            "triplets": [
+                "R1_R2_3", 
+                "R1_R2_4", 
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets55", 
+            "triplets": [
+                "R1_R2_3", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,R1_R2_4", 
+            "modelName": "modelRegionalTriplets63", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "R1_R2_4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,E8_F4", 
+            "modelName": "modelRegionalTriplets66", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets69", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets75", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_3", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets85", 
+            "triplets": [
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }, 
+        {
+            "gen": "bitwise_complete_generator", 
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,R1_R2_4,E8_F4", 
+            "modelName": "modelRegionalTriplets100", 
+            "triplets": [
+                "R1_R2_1", 
+                "R1_R2_2", 
+                "R1_R2_3", 
+                "R1_R2_4", 
+                "E8_F4"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "models": [
+    {
+      "modelName": "NCG_F4_combined",
+      "gen": "conditional_generator",
+      "endModel": "combined"
+    }
+  ]
+}

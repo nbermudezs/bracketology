@@ -1,0 +1,189 @@
+{
+    "models": [
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + SA", 
+            "modelName": "modelSA_bitwise"
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1", 
+            "modelName": "modelSA_0", 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2", 
+            "modelName": "modelSA_1", 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets E8_F4", 
+            "modelName": "modelSA_2", 
+            "triplets": [
+                "E8_F4"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1", 
+            "modelName": "modelSA_3", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_2", 
+            "modelName": "modelSA_4", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2", 
+            "modelName": "modelSA_5", 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_1", 
+            "modelName": "modelSA_7", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_2", 
+            "modelName": "modelSA_8", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_1", 
+            "modelName": "modelSA_10", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_2", 
+            "modelName": "modelSA_11", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1,R4_R5_2", 
+            "modelName": "modelSA_14", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_1", 
+            "modelName": "modelSA_16", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_2", 
+            "modelName": "modelSA_17", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_1,R4_R5_2", 
+            "modelName": "modelSA_20", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelSA_23", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "annealing_model": "30_1985", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelSA_27", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }
+    ]
+}

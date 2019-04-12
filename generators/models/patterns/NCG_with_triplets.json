@@ -1,0 +1,189 @@
+{
+    "models": [
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + NCG", 
+            "modelName": "modelNCG_bitwise"
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1", 
+            "modelName": "modelNCG_0", 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2", 
+            "modelName": "modelNCG_1", 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets E8_F4", 
+            "modelName": "modelNCG_2", 
+            "triplets": [
+                "E8_F4"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1", 
+            "modelName": "modelNCG_3", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_2", 
+            "modelName": "modelNCG_4", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2", 
+            "modelName": "modelNCG_5", 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_1", 
+            "modelName": "modelNCG_7", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_2", 
+            "modelName": "modelNCG_8", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_1", 
+            "modelName": "modelNCG_10", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_2", 
+            "modelName": "modelNCG_11", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets R4_R5_1,R4_R5_2", 
+            "modelName": "modelNCG_14", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_1", 
+            "modelName": "modelNCG_16", 
+            "non-regional-triplets": [
+                "R4_R5_1"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_2", 
+            "modelName": "modelNCG_17", 
+            "non-regional-triplets": [
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,R4_R5_1,R4_R5_2", 
+            "modelName": "modelNCG_20", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelNCG_23", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_2"
+            ]
+        }, 
+        {
+            "endModel": "NCG", 
+            "gen": "conditional_generator", 
+            "modelDesc": "bitwise + triplets S16_E8_1,S16_E8_2,R4_R5_1,R4_R5_2", 
+            "modelName": "modelNCG_27", 
+            "non-regional-triplets": [
+                "R4_R5_1", 
+                "R4_R5_2"
+            ], 
+            "triplets": [
+                "S16_E8_1", 
+                "S16_E8_2"
+            ]
+        }
+    ]
+}
