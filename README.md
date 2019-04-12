@@ -47,6 +47,7 @@ The *generators* directory contains scripts to generate bracket pools using vari
 The specific probability values used are described in **TODO: add citation**.
 - *generatorBitwise.py* can be used to generate brackets were each bit is calculated solely based on the MLE of each bit, without using seed information as in the Power Model.
 - *generatorBradleyTerry.py* can generate bracket pools using the original Bradley-Terry model and its backwards variations analogous to the Power Model variants proposed in **TODO: add citation**.
+In particular, the Bradley-Terry generator requires winning probabilities that are computed by first executing the *generators/utils/preprocessForBradleyTerry.py* script, followed by the *generators/fitBradleyTerry.py* script.
 
 All these models share the same structure and accept the same 
 bash options:
@@ -112,7 +113,7 @@ where the output of *summarizeBracketPools.py* was stored.
 - *generators/utils/extractScores.py* can be used to take one of the bracket pool files that contain the actual brackets and convert it
 into the new format that contains only the scores of the brackets.
 - *generators/utils/tripletsUniformityTest.py* performs a Chi-square test over the distribution of values of triplets of bits to check whether their distribution seems uniform.
-
+- *generators/utils/preprocessForBradleyTerry.py* takes the historical brackets and creates the summary necessary to fit the Bradley-Terry model (winning records for each seed match-up).
 
 
 #### Visualization
