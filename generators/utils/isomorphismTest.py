@@ -240,6 +240,6 @@ if __name__ == '__main__':
 
         if not os.path.exists('isomorphism'):
             os.makedirs('isomorphism')
-        
+
         plt.savefig('isomorphism/{}_comparison.png'.format(triplet), figsize=(13, 7))
         plt.close()

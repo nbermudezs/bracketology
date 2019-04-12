@@ -109,6 +109,10 @@ python prepareForMCB.py <numTrials> <metric> <batchStart> <batchEnd> <summaryDir
 where *numTrials* should match the one used for the other scripts, *metric* can take the **ESPN** or **Max score** values, to tabulate the ESPN count or Max score metrics, respectively, *batchStart* and *batchEnd* determine which batches should be summarize -- in practice, *batchStart*=0 and *batchEnd*=*numBatches*-1 are the most common values. Finally, the *summaryDir* is the relative path to the directory 
 where the output of *summarizeBracketPools.py* was stored.
 
+The *generators/MCB.py* script performs multiple comparison tests for model selection: (i) Multiple Comparison with the Best (MCB), (ii) one-way ANOVA, (iii) Wilcoxon sum of ranks, and (iv) KW H-test.
+Additionally, it calculates the summary statistics for the replications of the bracket pool generations and provides utility functions to print the data in LaTex table format. Finally, it creates boxplots comparing the different models.
+The current implementation was used to compare the ten settings for the simulated annealing work from (**TODO: add citation**), but it can be modified to compare any given set of models.
+
 #### Utility files
 - *generators/utils/extractScores.py* can be used to take one of the bracket pool files that contain the actual brackets and convert it
 into the new format that contains only the scores of the brackets.
