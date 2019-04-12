@@ -123,6 +123,8 @@ into the new format that contains only the scores of the brackets.
 - *generators/utils/isomorphismTest.py* can be used to check whether the vector encoding of a bracket is isomorphic (i.e., the bit distribution is the same across permutations of the regions).
 - *generators/utils/tripletDist.py* and *generators/utils/3bitPathDist.py* perform a Chi-square and a 3-way Fisher's exact test over all triplets and 3bit paths, respectively, to
 check if the observed distribution of a triplet (or path) is statistically equivalent to the distribution obtained by independently looking at the three bits that constitute the triplet (or path).
+The groups of bits analyzed by these scripts are within a single region. It is also of interest to look at triplets or paths that involve the bits after the Final Four round. The analysis for these groups is
+done in *generators/utils/nonRegionalTripletDist.py*.
 
 #### Visualization
 The `generators/viz` directory contains scripts to plot score distributions, boxplots for model comparison, and triplet distributions.
