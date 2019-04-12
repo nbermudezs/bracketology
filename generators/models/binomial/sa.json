@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "modelName": "binomialSA-30_2002",
+      "annealing_model": "30_2002",
+      "binomial": true,
+      "generator": "binomial_generator"
+    },
+    {
+      "modelName": "binomialSA-30_1985",
+      "annealing_model": "30_1985",
+      "binomial": true,
+      "generator": "binomial_generator"
+    }
+  ]
+}

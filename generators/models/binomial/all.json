@@ -1,0 +1,69 @@
+{
+  "models": [
+    {
+      "modelName": "binomialOnly"
+    },
+    {
+      "modelName": "binomial_F4_A",
+      "endModel": "F4_A"
+    },
+    {
+      "modelName": "binomial_F4_B",
+      "endModel": "F4_B"
+    },
+    {
+      "modelName": "binomial_E8",
+      "endModel": "E8"
+    },
+    {
+      "modelName": "binomial_NCG",
+      "endModel": "NCG"
+    },
+    {
+      "modelName": "binomial_F4_NCG_combined",
+      "endModel": "combined"
+    },
+
+    {
+      "modelName": "binomialOnly_withNCG_triplet",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    },
+    {
+      "modelName": "binomial_F4_A_withNCG_triplet",
+      "endModel": "F4_A",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    },
+    {
+      "modelName": "binomial_F4_B_withNCG_triplet",
+      "endModel": "F4_B",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    },
+    {
+      "modelName": "binomial_E8_withNCG_triplet",
+      "endModel": "E8",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    },
+    {
+      "modelName": "binomial_NCG_withNCG_triplet",
+      "endModel": "NCG",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    },
+    {
+      "modelName": "binomial_F4_NCG_combined_withNCG_triplet",
+      "endModel": "combined",
+      "non-regional-triplets": [
+        "NCG"
+      ]
+    }
+  ]
+}

@@ -122,6 +122,10 @@ backward models (i.e., E8, NCG, F4_A, F4_B). In the first case, the attributes *
 In the case of the backwards models, three attributes need to be specified **percent**, **type** and **trunc** (must be set to **true**). The type can be either "fixed" or "rv" (which adds a randomly sampled noise) and **percent** 
 specifies the amount of perturbation. For example, **percent**=0.1 and **type**="rv" determines a perturbation around the original probability value that follows a uniform distribution between 0 and 10% of the original probability value.
 
+#### Models
+The `generators/models` directory contains the models files for the experiments that were performed between 2017 and 2019. These include the original Power Model experiments, the experiments that uses the simulated annealing first round probabilities, 
+the experiments perturbing the later rounds of the Power Model, the experiments using the binomial distribution for the first round upsets, and all the experiments involving triplets and 3bit paths.
+
 #### Model Evaluation and Comparison
 It is of interest to assess the quality of a bracket pool and use these metrics to 
 compare multiple models. 

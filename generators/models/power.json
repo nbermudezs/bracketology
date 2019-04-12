@@ -1,0 +1,33 @@
+{
+    "models": [
+        {
+            "modelDesc": "",
+            "modelName": "power",
+            "isR1Grouped": "False"
+        },
+        {
+            "modelDesc": "",
+            "modelName": "E8",
+            "isR1Grouped": "False",
+            "endModel": "E8"
+        },
+        {
+            "modelDesc": "",
+            "modelName": "NCG",
+            "isR1Grouped": "False",
+            "endModel": "Rev_2"
+        },
+        {
+            "modelDesc": "",
+            "modelName": "F4_A",
+            "isR1Grouped": "False",
+            "endModel": "F4_1"
+        },
+        {
+            "modelDesc": "",
+            "modelName": "F4_B",
+            "isR1Grouped": "False",
+            "endModel": "F4_2"
+        }
+    ]
+}
