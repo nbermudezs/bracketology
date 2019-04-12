@@ -38,12 +38,15 @@ The Power Model defines parameters $\alpha$ for each seed match-up. These parame
 the Maximum Likelihood Estimate of the particular seed match-up. The *generators/fitPowerModel.py* script 
 takes the bracket input files and estimates the Power Model parameters.
 
+Similarly, *generators/fitBradleyTerry.py* can be used to estimate the $\beta$ parameters needed for the Bradley-Terry model, which are saved in a JSON file under the *generators/bradleyTerry* directory.
+
 #### Bracket Pool Generators
 The *generators* directory contains scripts to generate bracket pools using various approaches:
 - *generatorPower.py* supports the generation of bracket pools using one of the five original Power Model variations proposed by (**TODO: add citation**).
 - *generatorSA.py* supports the same five variations of the Power Model but also supports the use of different first round probabilities (obtained using Simulated Annealing). 
 The specific probability values used are described in **TODO: add citation**.
 - *generatorBitwise.py* can be used to generate brackets were each bit is calculated solely based on the MLE of each bit, without using seed information as in the Power Model.
+- *generatorBradleyTerry.py* can generate bracket pools using the original Bradley-Terry model and its backwards variations analogous to the Power Model variants proposed in **TODO: add citation**.
 
 All these models share the same structure and accept the same 
 bash options:
