@@ -108,6 +108,29 @@ python prepareForMCB.py <numTrials> <metric> <batchStart> <batchEnd> <summaryDir
 where *numTrials* should match the one used for the other scripts, *metric* can take the **ESPN** or **Max score** values, to tabulate the ESPN count or Max score metrics, respectively, *batchStart* and *batchEnd* determine which batches should be summarize -- in practice, *batchStart*=0 and *batchEnd*=*numBatches*-1 are the most common values. Finally, the *summaryDir* is the relative path to the directory 
 where the output of *summarizeBracketPools.py* was stored.
 
+#### Utility files
+- *generators/utils/extractScores.py* can be used to take one of the bracket pool files that contain the actual brackets and convert it
+into the new format that contains only the scores of the brackets.
+- *generators/utils/tripletsUniformityTest.py* performs a Chi-square test over the distribution of values of triplets of bits to check whether their distribution seems uniform.
+
+
+
+#### Visualization
+The `generators/viz` directory contains scripts to plot score distributions, boxplots for model comparison, and triplet distributions.
+Most of these scripts adhere to the same parameters used by the generator scripts:
+```
+python <script.py> <numTrials> <numBatches> <modelsFilepath> <summaryDir>
+```
+
+
+### CHANGELOG
+- The generators no longer store the vector representation of the generated brackets. Instead, the scores and statistics about the seeds that reach each of the rounds
+are tracked and save. This change was motivated by i) reducing the runtime, ii) allowing really large bracket pools (1B+) to be generated (memory constrains), and iii) storing space.
+- The *summarizeBracketPool.py* is a modified version of the original *summarizeExperimentsFixedAlpha.py* script from *ian-ludden* repo. The new script handles the new generators where only the scores are saved to disk.
+- The *summarizeBracketPool.py* accepts a parameter to specify the output directory of the summary files. This allows for summaries of different generators/models to be kept separate.
+- *generatorPower.py* now supports an optional parameter that allows the generation of brackets for a single year instead of the 2013-2018 range.
+- All other scripts except *generatorPower.py* support an optional parameter that allows the generation of brackets for **one** of the models in the models file given instead of generating brackets for all of them.
+
 
 ### Contribution Guidelines
 **...TODO...**
