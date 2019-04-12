@@ -56,6 +56,36 @@ python <generator.py> <numTrials> <numBatches> <modelsFilepath>
 where *numTrials* is the size of the bracket pool, *numBatches* is the number of replications, each of which generates an entire bracket pool of size *numTrials*, and *modelsFilepath* is the relative path to a JSON file
 that specifies the model parameters for the generator.
 
+The models file is a JSON document containing a list of models, each of which adhere to the following definition:
+```json
+{
+  "modelName": "str",
+  "modelDesc": "[str]",
+  "endModel": "[str]",
+  "annealing_model": "[str]",
+  "bradleyTerry": "[bool]",
+  "format": "[str]"
+}
+```
+where the value in the snippet above indicates the data type of the attribute and the square brackets around it indicate that the field is optional.
+
+- The `modelName` attribute is the main identifier for the model and it is used as part of the filename for the file where the brackets, scores, and statistics collected during generation are stored.
+- `modelDesc` is specified for documentation only and it is not used in any of the scripts available in this repo.
+- The default behaviour of the scripts is to generate brackets in a forward fashion (i.e., first determine the outcomes of the first round, then the second, etc...), the `endModel` attribute allows
+the generator to create brackets backwards; in particular, it determines the seeds that will reach a particular round, locking some of the earlier round outcomes. As April 2019, five `endModel` values are supported:
+    - **F4_1**: this is supported by the *generatorPower.py* and *generatorBradleyTerry.py* scripts. Use **F4_A** instead for the other scripts.
+    - **F4_2**: this is supported by the *generatorPower.py* and *generatorBradleyTerry.py* scripts. Use **F4_B** instead for the other scripts.
+    - **E8**: supported by all scripts. It locks down the seeds for the teams that reach the Elite Eight round.
+    - **Rev_2**: this is supported by the *generatorPower.py* and *generatorBradleyTerry.py* scripts. Use **NCG** for other scripts. It locks down the seeds and regions for the champion
+    and runner up.
+    - **Rev_4**: supported by *generatorPower.py* and *generatorBradleyTerry.py* scripts. Use **combined** for other scripts. This model locks down the champion, runner up, and the other two regional champions.
+    These models determine which seed will reach the F4, E8, or NCG rounds by using a truncated geometric function.
+- By default, the generators use Maximum Likelihood Estimate winning probabilities. **TODO: add citation** used a simulated annealing algorithm to perturb the MLE probabilities for the first
+round of the tournament. The `annealing_model` can be used to tell the generator to use a particular set of these probabilities instead of the MLE probabilities. 
+This attribute allows one of ten values: 25_1985, 26_1985, 27_1985, 28_1985, 29_1985, 30_1985, 31_1985, 28_2002, 29_2002, 30_2002.
+- `format` determines the outcome encoding used for the vector representation of the bracket. Currently, only **TTT** is supported for both generation and scoring of brackets.
+The generators can create brackets using the **FFF** encoding but the scoring function needs to be updated to support the scoring of this definition.
+
 #### Model Evaluation and Comparison
 It is of interest to assess the quality of a bracket pool and use these metrics to 
 compare multiple models. 
