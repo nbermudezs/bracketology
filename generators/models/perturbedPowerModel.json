@@ -1,0 +1,518 @@
+{
+  "models": [
+    {
+      "modelName": "powerPerturbedAlpha0",
+      "perturbation": {
+        "alphaMLEprobs": "fixed10",
+        "rounds": [2, 3, 4, 5, 6]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha1",
+      "perturbation": {
+        "alphaMLEprobs": "fixed20",
+        "rounds": [2, 3, 4, 5, 6]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha2",
+      "perturbation": {
+        "alphaMLEprobs": "fixed10",
+        "rounds": [6]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha3",
+      "perturbation": {
+        "alphaMLEprobs": "fixed20",
+        "rounds": [5]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha4",
+      "perturbation": {
+        "alphaMLEprobs": "fixed10",
+        "rounds": [5, 6]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha5",
+      "perturbation": {
+        "alphaMLEprobs": "fixed20",
+        "rounds": [6]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha6",
+      "perturbation": {
+        "alphaMLEprobs": "fixed10",
+        "rounds": [5]
+      }
+    },
+    {
+      "modelName": "powerPerturbedAlpha7",
+      "perturbation": {
+        "alphaMLEprobs": "fixed20",
+        "rounds": [5, 6]
+      }
+    },
+    {
+      "modelName": "F4_A_perturbed0",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "F4_1"
+    },
+    {
+      "modelName": "F4_B_perturbed0",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "F4_2"
+    },
+    {
+      "modelName": "NCG_perturbed0",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "Rev_2"
+    },
+    {
+      "modelName": "E8_perturbed0",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "E8"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "Rev_4"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_2002",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_1985",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_28_2002",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "28_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "combined"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_2002",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "combined",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_1985",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "combined",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_28_2002",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true
+      },
+      "endModel": "combined",
+      "annealing_model": "28_2002"
+    },
+
+
+
+
+    {
+      "modelName": "F4_A_perturbed0_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "F4_1"
+    },
+    {
+      "modelName": "F4_B_perturbed0_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "F4_2"
+    },
+    {
+      "modelName": "NCG_perturbed0_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "Rev_2"
+    },
+    {
+      "modelName": "E8_perturbed0_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "E8"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_2002_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_1985_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_28_2002_fixed10",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "28_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_fixed10",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "combined"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_2002_fixed10",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_1985_fixed10",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_28_2002_fixed10",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.1,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "28_2002"
+    },
+
+
+
+    {
+      "modelName": "F4_A_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "F4_1"
+    },
+    {
+      "modelName": "F4_B_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "F4_2"
+    },
+    {
+      "modelName": "NCG_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_2"
+    },
+    {
+      "modelName": "E8_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "E8"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_2002_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_1985_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_28_2002_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "28_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_2002_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_1985_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_28_2002_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "28_2002"
+    },
+
+
+
+    {
+      "modelName": "F4_A_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "F4_1"
+    },
+    {
+      "modelName": "F4_B_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "F4_2"
+    },
+    {
+      "modelName": "NCG_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_2"
+    },
+    {
+      "modelName": "E8_perturbed0_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "E8"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_2002_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_30_1985_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_SA_28_2002_fixed5",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "Rev_4",
+      "annealing_model": "28_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_2002_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_30_1985_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_RU_F4_perturbed_bitwise_SA_28_2002_fixed5",
+      "generator": "conditional_generator",
+      "perturbation": {
+        "trunc": true,
+        "percent": 0.05,
+        "type": "fixed"
+      },
+      "endModel": "combined",
+      "annealing_model": "28_2002"
+    }
+  ]
+}

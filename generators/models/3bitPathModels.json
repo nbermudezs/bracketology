@@ -1,0 +1,2876 @@
+{
+    "models": [
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1",
+            "modelName": "modelPath7",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2",
+            "modelName": "modelPath8",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3",
+            "modelName": "modelPath9",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S4",
+            "modelName": "modelPath10",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S5",
+            "modelName": "modelPath11",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S6",
+            "modelName": "modelPath12",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S7",
+            "modelName": "modelPath13",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S8",
+            "modelName": "modelPath14",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_R2_1",
+            "modelName": "modelPath15",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_R2_2",
+            "modelName": "modelPath16",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_R2_3",
+            "modelName": "modelPath17",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_R2_4",
+            "modelName": "modelPath18",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S2",
+            "modelName": "modelPath26",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S3",
+            "modelName": "modelPath27",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S4",
+            "modelName": "modelPath28",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S5",
+            "modelName": "modelPath29",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S6",
+            "modelName": "modelPath30",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S7",
+            "modelName": "modelPath31",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_R2_2",
+            "modelName": "modelPath34",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_R2_3",
+            "modelName": "modelPath35",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_R2_4",
+            "modelName": "modelPath36",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1",
+            "modelName": "modelPath42",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S2",
+            "modelName": "modelPath43",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S3",
+            "modelName": "modelPath44",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S6",
+            "modelName": "modelPath47",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S7",
+            "modelName": "modelPath48",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S8",
+            "modelName": "modelPath49",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_R2_1",
+            "modelName": "modelPath50",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_R2_3",
+            "modelName": "modelPath52",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_R2_4",
+            "modelName": "modelPath53",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S1",
+            "modelName": "modelPath58",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2",
+            "modelName": "modelPath59",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S4",
+            "modelName": "modelPath61",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S5",
+            "modelName": "modelPath62",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S7",
+            "modelName": "modelPath64",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S8",
+            "modelName": "modelPath65",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_R2_1",
+            "modelName": "modelPath66",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_R2_2",
+            "modelName": "modelPath67",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_R2_4",
+            "modelName": "modelPath69",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S1",
+            "modelName": "modelPath73",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3",
+            "modelName": "modelPath75",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S4",
+            "modelName": "modelPath76",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S5",
+            "modelName": "modelPath77",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S6",
+            "modelName": "modelPath78",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S8",
+            "modelName": "modelPath80",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_R2_1",
+            "modelName": "modelPath81",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_R2_2",
+            "modelName": "modelPath82",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_R2_3",
+            "modelName": "modelPath83",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_S2",
+            "modelName": "modelPath88",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_S3",
+            "modelName": "modelPath89",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_S6",
+            "modelName": "modelPath92",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_S7",
+            "modelName": "modelPath93",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_R2_3",
+            "modelName": "modelPath97",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_1,P_R2_4",
+            "modelName": "modelPath98",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_S1",
+            "modelName": "modelPath100",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_S4",
+            "modelName": "modelPath103",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_S5",
+            "modelName": "modelPath104",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_S8",
+            "modelName": "modelPath107",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_R2_1",
+            "modelName": "modelPath108",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets S16_E8_2,P_R2_2",
+            "modelName": "modelPath109",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_S2",
+            "modelName": "modelPath124",
+            "paths": [
+                "P_S1",
+                "P_S2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_S3",
+            "modelName": "modelPath125",
+            "paths": [
+                "P_S1",
+                "P_S3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_S6",
+            "modelName": "modelPath128",
+            "paths": [
+                "P_S1",
+                "P_S6"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_S7",
+            "modelName": "modelPath129",
+            "paths": [
+                "P_S1",
+                "P_S7"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_R2_3",
+            "modelName": "modelPath133",
+            "paths": [
+                "P_S1",
+                "P_R2_3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S1,P_R2_4",
+            "modelName": "modelPath134",
+            "paths": [
+                "P_S1",
+                "P_R2_4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2,P_S4",
+            "modelName": "modelPath136",
+            "paths": [
+                "P_S2",
+                "P_S4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2,P_S5",
+            "modelName": "modelPath137",
+            "paths": [
+                "P_S2",
+                "P_S5"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2,P_S8",
+            "modelName": "modelPath140",
+            "paths": [
+                "P_S2",
+                "P_S8"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2,P_R2_1",
+            "modelName": "modelPath141",
+            "paths": [
+                "P_S2",
+                "P_R2_1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S2,P_R2_2",
+            "modelName": "modelPath142",
+            "paths": [
+                "P_S2",
+                "P_R2_2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3,P_S4",
+            "modelName": "modelPath145",
+            "paths": [
+                "P_S3",
+                "P_S4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3,P_S5",
+            "modelName": "modelPath146",
+            "paths": [
+                "P_S3",
+                "P_S5"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3,P_S8",
+            "modelName": "modelPath149",
+            "paths": [
+                "P_S3",
+                "P_S8"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3,P_R2_1",
+            "modelName": "modelPath150",
+            "paths": [
+                "P_S3",
+                "P_R2_1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S3,P_R2_2",
+            "modelName": "modelPath151",
+            "paths": [
+                "P_S3",
+                "P_R2_2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S4,P_S6",
+            "modelName": "modelPath155",
+            "paths": [
+                "P_S4",
+                "P_S6"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S4,P_S7",
+            "modelName": "modelPath156",
+            "paths": [
+                "P_S4",
+                "P_S7"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S4,P_R2_3",
+            "modelName": "modelPath160",
+            "paths": [
+                "P_S4",
+                "P_R2_3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S4,P_R2_4",
+            "modelName": "modelPath161",
+            "paths": [
+                "P_S4",
+                "P_R2_4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S5,P_S6",
+            "modelName": "modelPath162",
+            "paths": [
+                "P_S5",
+                "P_S6"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S5,P_S7",
+            "modelName": "modelPath163",
+            "paths": [
+                "P_S5",
+                "P_S7"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S5,P_R2_3",
+            "modelName": "modelPath167",
+            "paths": [
+                "P_S5",
+                "P_R2_3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S5,P_R2_4",
+            "modelName": "modelPath168",
+            "paths": [
+                "P_S5",
+                "P_R2_4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S6,P_S8",
+            "modelName": "modelPath170",
+            "paths": [
+                "P_S6",
+                "P_S8"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S6,P_R2_1",
+            "modelName": "modelPath171",
+            "paths": [
+                "P_S6",
+                "P_R2_1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S6,P_R2_2",
+            "modelName": "modelPath172",
+            "paths": [
+                "P_S6",
+                "P_R2_2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S7,P_S8",
+            "modelName": "modelPath175",
+            "paths": [
+                "P_S7",
+                "P_S8"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S7,P_R2_1",
+            "modelName": "modelPath176",
+            "paths": [
+                "P_S7",
+                "P_R2_1"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S7,P_R2_2",
+            "modelName": "modelPath177",
+            "paths": [
+                "P_S7",
+                "P_R2_2"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S8,P_R2_3",
+            "modelName": "modelPath182",
+            "paths": [
+                "P_S8",
+                "P_R2_3"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets P_S8,P_R2_4",
+            "modelName": "modelPath183",
+            "paths": [
+                "P_S8",
+                "P_R2_4"
+            ],
+            "triplets": []
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_S2",
+            "modelName": "modelPath196",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_S3",
+            "modelName": "modelPath197",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_S6",
+            "modelName": "modelPath200",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_S7",
+            "modelName": "modelPath201",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_R2_3",
+            "modelName": "modelPath205",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,P_R2_4",
+            "modelName": "modelPath206",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S2",
+            "modelName": "modelPath212",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S4",
+            "modelName": "modelPath214",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S5",
+            "modelName": "modelPath215",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S7",
+            "modelName": "modelPath217",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_R2_2",
+            "modelName": "modelPath220",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_R2_4",
+            "modelName": "modelPath222",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S3",
+            "modelName": "modelPath228",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S4",
+            "modelName": "modelPath229",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S5",
+            "modelName": "modelPath230",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S6",
+            "modelName": "modelPath231",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_R2_2",
+            "modelName": "modelPath235",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_R2_3",
+            "modelName": "modelPath236",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,S16_E8_2,P_S4",
+            "modelName": "modelPath256",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,S16_E8_2,P_S5",
+            "modelName": "modelPath257",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,S16_E8_2,P_R2_2",
+            "modelName": "modelPath262",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S2,P_S4",
+            "modelName": "modelPath289",
+            "paths": [
+                "P_S2",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S2,P_S5",
+            "modelName": "modelPath290",
+            "paths": [
+                "P_S2",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S2,P_R2_2",
+            "modelName": "modelPath295",
+            "paths": [
+                "P_S2",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S3,P_S4",
+            "modelName": "modelPath298",
+            "paths": [
+                "P_S3",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S3,P_S5",
+            "modelName": "modelPath299",
+            "paths": [
+                "P_S3",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S3,P_R2_2",
+            "modelName": "modelPath304",
+            "paths": [
+                "P_S3",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S4,P_S6",
+            "modelName": "modelPath308",
+            "paths": [
+                "P_S4",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S4,P_S7",
+            "modelName": "modelPath309",
+            "paths": [
+                "P_S4",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S4,P_R2_3",
+            "modelName": "modelPath313",
+            "paths": [
+                "P_S4",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S4,P_R2_4",
+            "modelName": "modelPath314",
+            "paths": [
+                "P_S4",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S5,P_S6",
+            "modelName": "modelPath315",
+            "paths": [
+                "P_S5",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S5,P_S7",
+            "modelName": "modelPath316",
+            "paths": [
+                "P_S5",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S5,P_R2_3",
+            "modelName": "modelPath320",
+            "paths": [
+                "P_S5",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S5,P_R2_4",
+            "modelName": "modelPath321",
+            "paths": [
+                "P_S5",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S6,P_R2_2",
+            "modelName": "modelPath325",
+            "paths": [
+                "P_S6",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,P_S7,P_R2_2",
+            "modelName": "modelPath330",
+            "paths": [
+                "P_S7",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S1",
+            "modelName": "modelPath347",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S2",
+            "modelName": "modelPath348",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S7",
+            "modelName": "modelPath353",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S8",
+            "modelName": "modelPath354",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_R2_1",
+            "modelName": "modelPath355",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_R2_4",
+            "modelName": "modelPath358",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S1",
+            "modelName": "modelPath362",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S3",
+            "modelName": "modelPath364",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S6",
+            "modelName": "modelPath367",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S8",
+            "modelName": "modelPath369",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_R2_1",
+            "modelName": "modelPath370",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_R2_3",
+            "modelName": "modelPath372",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,S16_E8_2,P_S1",
+            "modelName": "modelPath389",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,S16_E8_2,P_S8",
+            "modelName": "modelPath396",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,S16_E8_2,P_R2_1",
+            "modelName": "modelPath397",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "S16_E8_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_S2",
+            "modelName": "modelPath413",
+            "paths": [
+                "P_S1",
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_S3",
+            "modelName": "modelPath414",
+            "paths": [
+                "P_S1",
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_S6",
+            "modelName": "modelPath417",
+            "paths": [
+                "P_S1",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_S7",
+            "modelName": "modelPath418",
+            "paths": [
+                "P_S1",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_R2_3",
+            "modelName": "modelPath422",
+            "paths": [
+                "P_S1",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S1,P_R2_4",
+            "modelName": "modelPath423",
+            "paths": [
+                "P_S1",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S2,P_S8",
+            "modelName": "modelPath429",
+            "paths": [
+                "P_S2",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S2,P_R2_1",
+            "modelName": "modelPath430",
+            "paths": [
+                "P_S2",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S3,P_S8",
+            "modelName": "modelPath438",
+            "paths": [
+                "P_S3",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S3,P_R2_1",
+            "modelName": "modelPath439",
+            "paths": [
+                "P_S3",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S6,P_S8",
+            "modelName": "modelPath459",
+            "paths": [
+                "P_S6",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S6,P_R2_1",
+            "modelName": "modelPath460",
+            "paths": [
+                "P_S6",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S7,P_S8",
+            "modelName": "modelPath464",
+            "paths": [
+                "P_S7",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S7,P_R2_1",
+            "modelName": "modelPath465",
+            "paths": [
+                "P_S7",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S8,P_R2_3",
+            "modelName": "modelPath471",
+            "paths": [
+                "P_S8",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,P_S8,P_R2_4",
+            "modelName": "modelPath472",
+            "paths": [
+                "P_S8",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_S1",
+            "modelName": "modelPath482",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_S4",
+            "modelName": "modelPath485",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_S5",
+            "modelName": "modelPath486",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_S8",
+            "modelName": "modelPath489",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_R2_1",
+            "modelName": "modelPath490",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,R1_R2_4,P_R2_2",
+            "modelName": "modelPath491",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,S16_E8_1,P_S2",
+            "modelName": "modelPath497",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,S16_E8_1,P_S7",
+            "modelName": "modelPath502",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,S16_E8_1,P_R2_4",
+            "modelName": "modelPath507",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S1,P_S2",
+            "modelName": "modelPath533",
+            "paths": [
+                "P_S1",
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S1,P_S7",
+            "modelName": "modelPath538",
+            "paths": [
+                "P_S1",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S1,P_R2_4",
+            "modelName": "modelPath543",
+            "paths": [
+                "P_S1",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2,P_S4",
+            "modelName": "modelPath545",
+            "paths": [
+                "P_S2",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2,P_S5",
+            "modelName": "modelPath546",
+            "paths": [
+                "P_S2",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2,P_S8",
+            "modelName": "modelPath549",
+            "paths": [
+                "P_S2",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2,P_R2_1",
+            "modelName": "modelPath550",
+            "paths": [
+                "P_S2",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S2,P_R2_2",
+            "modelName": "modelPath551",
+            "paths": [
+                "P_S2",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S4,P_S7",
+            "modelName": "modelPath565",
+            "paths": [
+                "P_S4",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S4,P_R2_4",
+            "modelName": "modelPath570",
+            "paths": [
+                "P_S4",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S5,P_S7",
+            "modelName": "modelPath572",
+            "paths": [
+                "P_S5",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S5,P_R2_4",
+            "modelName": "modelPath577",
+            "paths": [
+                "P_S5",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S7,P_S8",
+            "modelName": "modelPath584",
+            "paths": [
+                "P_S7",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S7,P_R2_1",
+            "modelName": "modelPath585",
+            "paths": [
+                "P_S7",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S7,P_R2_2",
+            "modelName": "modelPath586",
+            "paths": [
+                "P_S7",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_3,P_S8,P_R2_4",
+            "modelName": "modelPath592",
+            "paths": [
+                "P_S8",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,S16_E8_1,P_S3",
+            "modelName": "modelPath603",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_4",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,S16_E8_1,P_S6",
+            "modelName": "modelPath606",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_4",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,S16_E8_1,P_R2_3",
+            "modelName": "modelPath611",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4",
+                "S16_E8_1"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S1,P_S3",
+            "modelName": "modelPath639",
+            "paths": [
+                "P_S1",
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S1,P_S6",
+            "modelName": "modelPath642",
+            "paths": [
+                "P_S1",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S1,P_R2_3",
+            "modelName": "modelPath647",
+            "paths": [
+                "P_S1",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3,P_S4",
+            "modelName": "modelPath659",
+            "paths": [
+                "P_S3",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3,P_S5",
+            "modelName": "modelPath660",
+            "paths": [
+                "P_S3",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3,P_S8",
+            "modelName": "modelPath663",
+            "paths": [
+                "P_S3",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3,P_R2_1",
+            "modelName": "modelPath664",
+            "paths": [
+                "P_S3",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S3,P_R2_2",
+            "modelName": "modelPath665",
+            "paths": [
+                "P_S3",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S4,P_S6",
+            "modelName": "modelPath669",
+            "paths": [
+                "P_S4",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S4,P_R2_3",
+            "modelName": "modelPath674",
+            "paths": [
+                "P_S4",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S5,P_S6",
+            "modelName": "modelPath676",
+            "paths": [
+                "P_S5",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S5,P_R2_3",
+            "modelName": "modelPath681",
+            "paths": [
+                "P_S5",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S6,P_S8",
+            "modelName": "modelPath684",
+            "paths": [
+                "P_S6",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S6,P_R2_1",
+            "modelName": "modelPath685",
+            "paths": [
+                "P_S6",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S6,P_R2_2",
+            "modelName": "modelPath686",
+            "paths": [
+                "P_S6",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_4,P_S8,P_R2_3",
+            "modelName": "modelPath696",
+            "paths": [
+                "P_S8",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,P_S2",
+            "modelName": "modelPath1164",
+            "paths": [
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,P_S7",
+            "modelName": "modelPath1169",
+            "paths": [
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_3,P_R2_4",
+            "modelName": "modelPath1174",
+            "paths": [
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_4,P_S3",
+            "modelName": "modelPath1180",
+            "paths": [
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_4,P_S6",
+            "modelName": "modelPath1183",
+            "paths": [
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_2,R1_R2_4,P_R2_3",
+            "modelName": "modelPath1188",
+            "paths": [
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,R1_R2_4,P_S4",
+            "modelName": "modelPath1301",
+            "paths": [
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,R1_R2_4,P_S5",
+            "modelName": "modelPath1302",
+            "paths": [
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,R1_R2_4,P_R2_2",
+            "modelName": "modelPath1307",
+            "paths": [
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S2,P_S4",
+            "modelName": "modelPath1361",
+            "paths": [
+                "P_S2",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S2,P_S5",
+            "modelName": "modelPath1362",
+            "paths": [
+                "P_S2",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S2,P_R2_2",
+            "modelName": "modelPath1367",
+            "paths": [
+                "P_S2",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S4,P_S7",
+            "modelName": "modelPath1381",
+            "paths": [
+                "P_S4",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S4,P_R2_4",
+            "modelName": "modelPath1386",
+            "paths": [
+                "P_S4",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S5,P_S7",
+            "modelName": "modelPath1388",
+            "paths": [
+                "P_S5",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S5,P_R2_4",
+            "modelName": "modelPath1393",
+            "paths": [
+                "P_S5",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_3,P_S7,P_R2_2",
+            "modelName": "modelPath1402",
+            "paths": [
+                "P_S7",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S3,P_S4",
+            "modelName": "modelPath1475",
+            "paths": [
+                "P_S3",
+                "P_S4"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S3,P_S5",
+            "modelName": "modelPath1476",
+            "paths": [
+                "P_S3",
+                "P_S5"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S3,P_R2_2",
+            "modelName": "modelPath1481",
+            "paths": [
+                "P_S3",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S4,P_S6",
+            "modelName": "modelPath1485",
+            "paths": [
+                "P_S4",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S4,P_R2_3",
+            "modelName": "modelPath1490",
+            "paths": [
+                "P_S4",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S5,P_S6",
+            "modelName": "modelPath1492",
+            "paths": [
+                "P_S5",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S5,P_R2_3",
+            "modelName": "modelPath1497",
+            "paths": [
+                "P_S5",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_1,R1_R2_4,P_S6,P_R2_2",
+            "modelName": "modelPath1502",
+            "paths": [
+                "P_S6",
+                "P_R2_2"
+            ],
+            "triplets": [
+                "R1_R2_1",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,R1_R2_4,P_S1",
+            "modelName": "modelPath1978",
+            "paths": [
+                "P_S1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,R1_R2_4,P_S8",
+            "modelName": "modelPath1985",
+            "paths": [
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,R1_R2_4,P_R2_1",
+            "modelName": "modelPath1986",
+            "paths": [
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S1,P_S2",
+            "modelName": "modelPath2029",
+            "paths": [
+                "P_S1",
+                "P_S2"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S1,P_S7",
+            "modelName": "modelPath2034",
+            "paths": [
+                "P_S1",
+                "P_S7"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S1,P_R2_4",
+            "modelName": "modelPath2039",
+            "paths": [
+                "P_S1",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S2,P_S8",
+            "modelName": "modelPath2045",
+            "paths": [
+                "P_S2",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S2,P_R2_1",
+            "modelName": "modelPath2046",
+            "paths": [
+                "P_S2",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S7,P_S8",
+            "modelName": "modelPath2080",
+            "paths": [
+                "P_S7",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S7,P_R2_1",
+            "modelName": "modelPath2081",
+            "paths": [
+                "P_S7",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_3,P_S8,P_R2_4",
+            "modelName": "modelPath2088",
+            "paths": [
+                "P_S8",
+                "P_R2_4"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_3"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S1,P_S3",
+            "modelName": "modelPath2135",
+            "paths": [
+                "P_S1",
+                "P_S3"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S1,P_S6",
+            "modelName": "modelPath2138",
+            "paths": [
+                "P_S1",
+                "P_S6"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S1,P_R2_3",
+            "modelName": "modelPath2143",
+            "paths": [
+                "P_S1",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S3,P_S8",
+            "modelName": "modelPath2159",
+            "paths": [
+                "P_S3",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S3,P_R2_1",
+            "modelName": "modelPath2160",
+            "paths": [
+                "P_S3",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S6,P_S8",
+            "modelName": "modelPath2180",
+            "paths": [
+                "P_S6",
+                "P_S8"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S6,P_R2_1",
+            "modelName": "modelPath2181",
+            "paths": [
+                "P_S6",
+                "P_R2_1"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        },
+        {
+            "gen": "bitwise_path_generator",
+            "modelDesc": "bitwise + triplets R1_R2_2,R1_R2_4,P_S8,P_R2_3",
+            "modelName": "modelPath2192",
+            "paths": [
+                "P_S8",
+                "P_R2_3"
+            ],
+            "triplets": [
+                "R1_R2_2",
+                "R1_R2_4"
+            ]
+        }
+    ]
+}
