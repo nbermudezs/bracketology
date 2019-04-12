@@ -69,7 +69,19 @@ The models file is a JSON document containing a list of models, each of which ad
   "endModel": "[str]",
   "annealing_model": "[str]",
   "bradleyTerry": "[bool]",
-  "format": "[str]"
+  "format": "[str]",
+  "triplets": [
+    "str"
+  ],
+  "non-regional-triplets": [
+    "str"
+  ],
+  "paths": [
+    "str"
+  ],
+  "non-regional-paths": [
+    "str"
+  ]
 }
 ```
 where the value in the snippet above indicates the data type of the attribute and the square brackets around it indicate that the field is optional.
@@ -90,6 +102,11 @@ round of the tournament. The `annealing_model` can be used to tell the generator
 This attribute allows one of ten values: 25_1985, 26_1985, 27_1985, 28_1985, 29_1985, 30_1985, 31_1985, 28_2002, 29_2002, 30_2002.
 - `format` determines the outcome encoding used for the vector representation of the bracket. Currently, only **TTT** is supported for both generation and scoring of brackets.
 The generators can create brackets using the **FFF** encoding but the scoring function needs to be updated to support the scoring of this definition.
+- `triplets` specifies a list of triplet names whose bits will be determined from the distribution of the triplet values and not at a bitwise level. There are seven regional triplets: E8_F4, S16_E8_1, S16_E8_2, R1_R2_1, R1_R2_2, R1_R2_3, and R1_R2_4. 
+For more details, see `doc triplets and paths.pdf`.
+- `non-regional-triplets` same as `triplets` but for the triplets that involve the last rounds: NCG, R4_R5_1, R4_R5_2.
+- `paths` each element is one of 12 possible 3bit paths: P_S1, P_S2, P_S3, P_S4, P_S5, P_S6, P_S7, P_S8, P_R2_1, P_R2_2, P_R2_3, P_R2_4.
+- `non-regional-paths` list of 3bit paths from P_R4_R6_1, P_R4_R6_2, P_R4_R6_3, P_R4_R6_4, P_R3_R5_1, P_R3_R5_2, P_R3_R5_3, P_R3_R5_4, P_R3_R5_5, P_R3_R5_6, P_R3_R5_7, P_R3_R5_8.
 
 #### Model Evaluation and Comparison
 It is of interest to assess the quality of a bracket pool and use these metrics to 
