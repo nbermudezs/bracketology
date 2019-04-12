@@ -50,6 +50,8 @@ This generator also supports the use of 3-bit paths and triplets. That is, it us
 A detailed explanation of these paths and triplets can be found in [this pdf](doc triplets and paths.pdf).
 - *generatorBradleyTerry.py* can generate bracket pools using the original Bradley-Terry model and its backwards variations analogous to the Power Model variants proposed in **TODO: add citation**.
 In particular, the Bradley-Terry generator requires winning probabilities that are computed by first executing the *generators/utils/preprocessForBradleyTerry.py* script, followed by the *generators/fitBradleyTerry.py* script.
+- *generatorBinomial.py* supports the same generation options as *generatorBitwise.py* but determines the 
+number of upsets between seed $i$ and $17-i$ in the first round of the tournament by sampling from a binomial distribution between 0 and 4. Once the number of upsets has been sampled, the regions that will observe the upset are selected randomly with a uniform distribution.
 
 All these models share the same structure and accept the same 
 bash options:
