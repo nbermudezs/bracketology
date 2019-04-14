@@ -711,8 +711,8 @@ def genBracketWithoutEndModel(model, year):
 def getE8Bracket(model, year):
     bracket = np.repeat(-1, 63)
     for region in range(4):
-        s1 = getE8SeedBottom(year)
-        s2 = getE8SeedTop(year)
+        s1 = getE8SeedBottom(year, model)
+        s2 = getE8SeedTop(year, model)
         region_bracket = fixRegionalBits(s1)
         region_bracket_2 = fixRegionalBits(s2)
         region_bracket[region_bracket_2 != -1] = region_bracket_2[region_bracket_2 != -1]
@@ -738,7 +738,7 @@ def getE8Bracket(model, year):
 def getF4ABracket(model, year):
     bracket = np.repeat(-1, 63)
     for region in range(4):
-        winner = getF4SeedTogether(year)
+        winner = getF4SeedTogether(year, model)
         bracket[region * 15:region * 15 + 15] = fixRegionalBits(winner)
 
     # ...
@@ -760,7 +760,7 @@ def getF4ABracket(model, year):
 def getF4BBracket(model, year):
     bracket = np.repeat(-1, 63)
     for region in range(4):
-        winner = getF4SeedSplit(year)
+        winner = getF4SeedSplit(year, model)
         bracket[region * 15:region * 15 + 15] = fixRegionalBits(winner)
 
     # ...
@@ -782,8 +782,8 @@ def getF4BBracket(model, year):
 
 def genNCGBracket(model, year):
     bracket = np.repeat(-1, 63)
-    champion = getChampion(year)
-    runnerUp = getRunnerUp(year)
+    champion = getChampion(year, model)
+    runnerUp = getRunnerUp(year, model)
     ncg_triplet = getValues(bracket, year, 'NCG')
     bracket[[60, 61, 62]] = ncg_triplet
     bracket = fixBitsFromNCG(bracket, champion, runnerUp)
@@ -809,8 +809,8 @@ def genNCGBracket(model, year):
 
 def getCombinedEndModelBracket(model, year):
     bracket = np.repeat(-1, 63)
-    champion = getChampion(year)
-    runnerUp = getRunnerUp(year)
+    champion = getChampion(year, model)
+    runnerUp = getRunnerUp(year, model)
     ncg_triplet = getValues(bracket, year, 'NCG')
     bracket[[60, 61, 62]] = ncg_triplet
     bracket = fixBitsFromNCG(bracket, champion, runnerUp)
@@ -830,7 +830,7 @@ def getCombinedEndModelBracket(model, year):
             else:
                 bracket[region * 15 + bit] = 0
 
-    f4_seeds = [getF4SeedSplit(year) for _ in range(4)]
+    f4_seeds = [getF4SeedSplit(year, model) for _ in range(4)]
     for region in range(4):
         if bracket[region * 15 + 14] == -1:
             bracket[region * 15:region * 15 + 15] = fixRegionalBits(f4_seeds[region])
