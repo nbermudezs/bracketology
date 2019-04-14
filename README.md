@@ -92,7 +92,8 @@ The models file is a JSON document containing a list of models, each of which ad
     "trunc": "bool",
     "percent": "float",
     "type": "str"
-  }
+  },
+  "generator": "[str]"
 }
 ```
 where the value in the snippet above indicates the data type of the attribute and the square brackets around it indicate that the field is optional.
@@ -123,6 +124,8 @@ observed MLE winning probabilities that are used to calculate the Power Model pa
 backward models (i.e., E8, NCG, F4_A, F4_B). In the first case, the attributes **alphaMLEprobs** and **rounds** need to be specified; **alphaMLEprobs** accepts "fixed10" and "fixed20" values and **rounds** can be one or more of the rounds 2 through 6.
 In the case of the backwards models, three attributes need to be specified **percent**, **type** and **trunc** (must be set to **true**). The type can be either "fixed" or "rv" (which adds a randomly sampled noise) and **percent** 
 specifies the amount of perturbation. For example, **percent**=0.1 and **type**="rv" determines a perturbation around the original probability value that follows a uniform distribution between 0 and 10% of the original probability value.
+- `generator` is present in some of the models as a way of documenting which of the generator scripts needs to be used to generate brackets with said model.
+It has no other use as of the time of writing.
 
 #### Models
 The `generators/models` directory contains the models files for the experiments that were performed between 2017 and 2019. These include the original Power Model experiments, the experiments that uses the simulated annealing first round probabilities, 
