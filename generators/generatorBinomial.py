@@ -11,6 +11,7 @@ from utils.runtimeSummary import RuntimeSummary
 from samplingUtils import getChampion, getRunnerUp
 from samplingUtils import getE8SeedBottom, getE8SeedTop
 from samplingUtils import getF4SeedSplit, getF4SeedTogether
+from numbers import Number
 
 
 def load_ref_brackets(fmt='TTT'):
@@ -580,7 +581,7 @@ def getP(model, year, bit_id):
             return binomial_probs[model.get('annealing_model')][bit_id % 15]
         return perturbed_ps[model.get('annealing_model')][bit_id % 15]
     base_p = probs[year][bit_id]
-    if model.get('perturbation'):
+    if model.get('perturbation') and isinstance(model['perturbation'], Number):
         if model.get('perturbationType') == 'fixed':
             p = base_p + np.random.uniform(-model['perturbation'], model['perturbation'])
         else:
