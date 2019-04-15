@@ -390,7 +390,7 @@ CONDITIONALS = {
 def fill_all_pattern_probs():
     global all_patterns, CONDITIONALS
     names = list(all_patterns.keys())
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
         vectors = vectors[:, :60].reshape(-1, 15)
         for name in names:
@@ -427,7 +427,7 @@ def fill_all_pattern_probs():
         for val in values:
             key = tuple(zip(comb, val))
             CONDITIONALS[key] = {}
-            for year in range(2013, 2019):
+            for year in range(2013, 2020):
                 CONDITIONALS[key][year] = {}
                 vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
                 region_vectors = vectors[:, :60].reshape(-1, 15)
@@ -463,7 +463,7 @@ def fill_all_pattern_probs():
             key = tuple(zip(comb, val))
             if key not in CONDITIONALS:
                 CONDITIONALS[key] = {}
-            for year in range(2013, 2019):
+            for year in range(2013, 2020):
                 if year not in CONDITIONALS[key]:
                     CONDITIONALS[key][year] = {}
                 vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
@@ -493,7 +493,7 @@ def fill_all_pattern_probs():
 def fill_triplet_probs():
     global all_triplets
     names = list(all_triplets.keys())
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
         vectors = vectors[:, :60].reshape(-1, 15)
         for name in names:
@@ -524,7 +524,7 @@ def fill_triplet_probs():
 def fill_path_probs():
     global all_paths
     names = list(all_paths.keys())
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
         vectors = vectors[:, :60].reshape(-1, 15)
         for name in names:
@@ -859,7 +859,7 @@ for modelId, modelDict in enumerate(modelsList):
 
     all_brackets = load_ref_brackets(modelDict.get('format', 'TTT'))
     # calculate bitwise MLE probs
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         vectors = np.vstack([v for y, v in all_brackets.items() if y < year])
         probs[year] = np.mean(vectors, axis=0)
 
@@ -869,7 +869,7 @@ for modelId, modelDict in enumerate(modelsList):
 
     print '{0:<8s}: {1}'.format(modelName, time.strftime("%Y-%m-%d %H:%M"))
 
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         print '\t {0}: {1}'.format(year, time.strftime("%Y-%m-%d %H:%M"))
         for batchNumber in range(numBatches):
             print '\t\t {0}: {1}'.format(batchNumber, time.strftime("%Y-%m-%d %H:%M"))

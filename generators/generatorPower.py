@@ -447,7 +447,7 @@ otherAlphas = {
 # predicting the outcome of a game in the given round
 # between the given seeds s1, s2.
 def getAlpha(s1, s2, model, year, roundNum):
-    # Round 1 grouped alpha values for predicting 2013-2019,
+    # Round 1 grouped alpha values for predicting 2013-2020,
     # where the first index is the better seed and the
     # second index is [year - 2013]. The grouping is:
     # 1, 2, 3-4, 5-7, 8
@@ -473,7 +473,7 @@ def getAlpha(s1, s2, model, year, roundNum):
         [0.9481178098,0.9341775923,0.9014353156,0.928223297,0.8792796956,0.8692346352,0.8944760731],
         [0,0,0,0,0,0,0]]
 
-    # Round 1 separated alpha values for predicting 2013-2019,
+    # Round 1 separated alpha values for predicting 2013-2020,
     # where the first index is the better seed and the
     # second index is [year - 2013].
     r1SeparateAlphas = [
@@ -488,7 +488,7 @@ def getAlpha(s1, s2, model, year, roundNum):
         [0,0,0,0,0,0,0]]
 
     # Rounds 2-6 weighted average alpha values for predicting
-    # 2013-2019, where the first index is [roundNum - 2] and
+    # 2013-2020, where the first index is [roundNum - 2] and
     # the second index is [year - 2013].
     r2to6Alphas = [
         [1.0960226368,1.0255184405,1.0280047853,1.0169015383,1.0085075325,1.0517190671,1.0349243918],
@@ -592,7 +592,7 @@ numBatches = int(sys.argv[2])
 if len(sys.argv) == 5:
     years = [int(sys.argv[4])]
 else:
-    years = range(2013, 2019)
+    years = range(2013, 2020)
 
 for modelDict in modelsList:
     modelName = modelDict['modelName']

@@ -28,7 +28,7 @@ if numTrials < 1000:
 else:
     trialsString = '{0}k'.format(int(numTrials / 1000))
 
-for year in range(2013, 2019):
+for year in range(2013, 2020):
     sys.stdout.write('{0} Tournament:\n'.format(year))
     sys.stdout.write('Batch,\n')
 

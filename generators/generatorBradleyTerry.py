@@ -64,7 +64,7 @@ from scoringUtils import scoreBracket
 BT_probs = {}
 def load_BT_probs():
     global BT_probs
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         year_dist = defaultdict(float)
         data = pd.read_csv('bradleyTerry/probs-{}.csv'.format(year), usecols=['player1', 'player2', 'prob1wins']).values
         for i in range(data.shape[0]):
@@ -277,7 +277,7 @@ numBatches = int(sys.argv[2])
 if len(sys.argv) == 5:
     years = [int(sys.argv[4])]
 else:
-    years = range(2013, 2019)
+    years = range(2013, 2020)
 
 # import cProfile, pstats
 # from io import StringIO
