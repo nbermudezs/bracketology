@@ -270,6 +270,10 @@ def getP(s1, s2, model, year, roundNum):
     return s2a / (s1a + s2a)
 
 
+TOP_SEEDS = [1, 16, 8, 9, 5, 12, 4, 13]
+BOTTOM_SEEDS = [6, 11, 3, 14, 7, 10, 2, 15]
+
+
 # This function generates a 63-element list of 0s and 1s
 # to represent game outcomes in a bracket. The model specifies
 # which alpha value(s) to use for each round.
@@ -287,8 +291,9 @@ def generateBracket(model, year):
     if 'endModel' in model:
         endModel = model['endModel']
 
+    NCG_E8 = 'NCG_E8'
     e8Seeds = []
-    if endModel == 'E8':
+    if endModel == 'E8' or endModel == NCG_E8:
         for i in range(4):
             e8Seeds.append(getE8SeedTop(year, model))
             e8Seeds.append(getE8SeedBottom(year, model))
@@ -298,7 +303,13 @@ def generateBracket(model, year):
     f4Seeds = []
     if endModel == 'F4_1':
         for i in range(4):
-            f4Seeds.append(getF4SeedTogether(year, model))
+            seed = getF4SeedTogether(year, model)
+            f4Seeds.append(seed)
+            if endModel == NCG_E8:
+                if seed in TOP_SEEDS:
+                    e8Seeds[i * 2] = seed
+                else:
+                    e8Seeds[i * 2 + 1] = seed
     elif endModel == 'F4_2':
         for i in range(4):
             f4Seeds.append(getF4SeedSplit(year, model))
@@ -306,7 +317,7 @@ def generateBracket(model, year):
         f4Seeds = [-1, -1, -1, -1]
 
     ncgSeeds = [-1, -1]
-    if 'Rev' in endModel:
+    if 'Rev' in endModel or endModel == NCG_E8:
         champion = getChampion(year, model)
         runnerUp = getRunnerUp(year, model)
         champRegion = int(floor(random.random() * 4))
@@ -329,6 +340,17 @@ def generateBracket(model, year):
 
         f4Seeds[champRegion] = champion
         f4Seeds[ruRegion] = runnerUp
+
+        if endModel == NCG_E8:
+            if champion in TOP_SEEDS:
+                e8Seeds[champRegion * 2] = champion
+            else:
+                e8Seeds[champRegion * 2 + 1] = champion
+            if runnerUp in TOP_SEEDS:
+                e8Seeds[ruRegion * 2] = runnerUp
+            else:
+                e8Seeds[ruRegion * 2 + 1] = runnerUp
+
     else:
         champRegion = -1
         ruRegion = -1

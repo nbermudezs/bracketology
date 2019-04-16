@@ -109,6 +109,8 @@ the generator to create brackets backwards; in particular, it determines the see
     and runner up.
     - **Rev_4**: supported by *generatorPower.py* and *generatorBradleyTerry.py* scripts. Use **combined** for other scripts. This model locks down the champion, runner up, and the other two regional champions.
     These models determine which seed will reach the F4, E8, or NCG rounds by using a truncated geometric function.
+    - **NCG_E8**: generates a bracket by first determining the NCG seeds, the remaining F4 seeds and the remaining E8 seeds. Note that each E8 seed locks down three bits in the previous rounds. This endModel then locks down 3x8+4+2+1=31 bits.
+    This endModel is currently supported by *generatorPower.py* and *generatorConditional.py* only.
 - By default, the generators use Maximum Likelihood Estimate winning probabilities. **TODO: add citation** used a simulated annealing algorithm to perturb the MLE probabilities for the first
 round of the tournament. The `annealing_model` can be used to tell the generator to use a particular set of these probabilities instead of the MLE probabilities. 
 This attribute allows one of ten values: 25_1985, 26_1985, 27_1985, 28_1985, 29_1985, 30_1985, 31_1985, 28_2002, 29_2002, 30_2002.

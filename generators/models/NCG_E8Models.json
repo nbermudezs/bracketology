@@ -1,0 +1,23 @@
+{
+  "models": [
+    {
+      "modelName": "NCG_E8_power",
+      "endModel": "NCG_E8"
+    },
+    {
+      "modelName": "NCG_E8_power_30_2002",
+      "endModel": "NCG_E8",
+      "annealing_model": "30_2002"
+    },
+    {
+      "modelName": "NCG_E8_power_30_1985",
+      "endModel": "NCG_E8",
+      "annealing_model": "30_1985"
+    },
+    {
+      "modelName": "NCG_E8_power_28_1985",
+      "endModel": "NCG_E8",
+      "annealing_model": "28_1985"
+    }
+  ]
+}
