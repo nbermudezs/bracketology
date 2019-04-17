@@ -97,7 +97,7 @@ if __name__ == '__main__':
     models_path = sys.argv[3]
     summary_path = sys.argv[4]
 
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         with open(models_path) as f:
             models = json.load(f)
         for batchNumber in range(num_batches):

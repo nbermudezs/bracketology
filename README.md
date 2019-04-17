@@ -137,7 +137,10 @@ The script follows the same convention of execution:
 python modelMixer.py <numTrials> <numBatches> <modelsFilename>
 ```
 The files containing the brackets/scores will use the modelsFilename as their own name. For example, if a `ludden.json` file contains the five models proposed by (**TODO: add citation**), and the *modelMixer.py* script is
-used to generate a bracket pool mixing brackets from all five models, the pool files will be saved as `generatedScores_ludden_{year}.json`.
+used to generate a bracket pool mixing brackets from all five models, the pool files will be saved as `generatedScores_ludden_{year}.json`. These files cannot be summarized using the standard *summarizeBracketPools.py* script; instead, 
+the *summarizeMixedBracketPools.py* script must be used. Similarly, once the summary is ready, the *prepareMixedPoolsForMCB.py* script must be used to format the data for the MCB analysis. 
+Note that *prepareMixedPoolsForMCB.py* is significantly slower than *prepareForMCB.py*; this is due to the calculation of tail probabilities for observing the
+Max Score in the mixed pool based on the score distributions of the individual bracket pools.
 
 #### Models
 The `generators/models` directory contains the models files for the experiments that were performed between 2017 and 2019. These include the original Power Model experiments, the experiments that uses the simulated annealing first round probabilities, 

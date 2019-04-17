@@ -67,6 +67,6 @@ if __name__ == '__main__':
                 models_scores.append(scores)
 
             result = sample(numTrials, models_scores)
-            outputFilepath = '{2}/generatedScores_{0}_{1}.json'.format(out, year, batchFolderName)
+            outputFilepath = '{2}/generatedScores_{0}Ensemble_{1}.json'.format(out, year, batchFolderName)
             with open(outputFilepath, 'w') as f:
                 json.dump({'scores': result.tolist(), 'actualBracket': actual_bracket}, f)
