@@ -48,7 +48,8 @@ metric_factor = {
         2015: 1,
         2016: 1,
         2017: 1,
-        2018: 1
+        2018: 1,
+        2019: 1
     },
     'count': {
         2013: 10 * 8.15,
@@ -56,21 +57,29 @@ metric_factor = {
         2015: 10 * 11.6,
         2016: 10 * 13.,
         2017: 10 * 18.8,
-        2018: 10 * 17.3
+        2018: 10 * 17.3,
+        2019: 10 * 17.2
     }
 }
 
 
-def process_file(f):
+def process_file(f, has_summary_stats):
     result = {}
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         year_result = []
         next(f)  # skip year in header
         next(f)  # skip the "Batch" delimiter
         for _ in range(R):
             replication = next(f).replace('\n', '').split(',')
-            observations = np.array(replication[1:])[[0, 2, 4, 6, 8]].astype(float)
+            observations = np.array(replication[1:-1])
+            if observations.shape[0] > 5:
+                observations = observations[[0, 2, 4, 6, 8]].astype(float)
+            else:
+                observations = observations.astype(float)
             year_result.append(observations)
+        if has_summary_stats:
+            next(f)  # remove line with means
+            next(f)  # remove line with std
         next(f)  # empty line at the end of each year
         result[year] = np.vstack(year_result).T
     return result
@@ -79,14 +88,14 @@ def process_file(f):
 def prepare_data():
     for metric in data.keys():
         with open('{}/{}-baseline.csv'.format(root, metric)) as f:
-            baseline = process_file(f)
+            baseline = process_file(f, has_summary_stats=False)
         for treatment in treatments:
             print(treatment)
             print('=' * 80)
             with open('{}/{}-{}.csv'.format(root, metric, treatment)) as f:
-                treatment_results = process_file(f)
+                treatment_results = process_file(f, has_summary_stats=True)
                 improvement = {}
-                for year in range(2013, 2019):
+                for year in range(2013, 2020):
                     # print('diff', treatment_results[year] - baseline[year])
                     if metric == 'score':
 
@@ -205,7 +214,7 @@ def main(_):
     prepare_data()
     matrix = np.zeros((len(treatments), R))
 
-    for year in range(2013, 2019):
+    for year in range(2013, 2020):
         matrix += build_treatment_matrix('score', year)
         # import pdb; pdb.set_trace()
     as_latex(matrix)
@@ -216,15 +225,15 @@ def main(_):
     print('S', matrix.std(axis=1, ddof=1).round(2))
     # import pdb; pdb.set_trace()
 
-    print('Wilcoxon sum of ranks:')
-    _wilcoxon(matrix)
-    print('-' * 120)
-    print('One-way ANOVA')
-    anova(matrix)
-    print('-' * 120)
-    print('Kruskal-Wallis H-test')
-    kruskal_wallis(matrix)
-    print('-' * 120)
+    # print('Wilcoxon sum of ranks:')
+    # _wilcoxon(matrix)
+    # print('-' * 120)
+    # print('One-way ANOVA')
+    # anova(matrix)
+    # print('-' * 120)
+    # print('Kruskal-Wallis H-test')
+    # kruskal_wallis(matrix)
+    # print('-' * 120)
     boxplots(matrix)
 
     print('MCB intervals:')
