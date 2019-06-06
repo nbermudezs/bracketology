@@ -1,0 +1,21 @@
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_25_1985/counts.csv count-25_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_26_1985/counts.csv count-26_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_27_1985/counts.csv count-27_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_28_1985/counts.csv count-28_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_29_1985/counts.csv count-29_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_30_1985/counts.csv count-30_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_31_1985/counts.csv count-31_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_28_2002/counts.csv count-28_2002.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_29_2002/counts.csv count-29_2002.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_30_2002/counts.csv count-30_2002.csv
+
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_25_1985/max-scores.csv score-25_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_26_1985/max-scores.csv score-26_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_27_1985/max-scores.csv score-27_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_28_1985/max-scores.csv score-28_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_29_1985/max-scores.csv score-29_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_30_1985/max-scores.csv score-30_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_31_1985/max-scores.csv score-31_1985.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_28_2002/max-scores.csv score-28_2002.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_29_2002/max-scores.csv score-29_2002.csv
+scp ews-ws:~/shj/bracket-analytics/Python/BracketsPowerModel/Summary_bt_30_2002/max-scores.csv score-30_2002.csv
