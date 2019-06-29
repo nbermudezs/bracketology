@@ -10,7 +10,7 @@ __status__ = "Development"
 import matplotlib.pyplot as plt
 import numpy as np
 from pprint import pprint
-from scipy.stats import f_oneway, kruskal, ranksums, wilcoxon
+from scipy.stats import f_oneway, kruskal, mannwhitneyu
 import seaborn as sns
 
 sns.set_palette('dark')
@@ -21,7 +21,7 @@ plt.rcParams['figure.dpi'] = 150
 
 N = 13 # number of sampled replications
 R = 25 # number of replications
-root = 'preparedForMCB/forPaper'
+root = 'forPaper'
 treatments = [
     '25_1985',
     '26_1985',
@@ -120,7 +120,7 @@ def build_treatment_matrix(metric, year):
 
 
 def mcb(matrix):
-    h = 2.41
+    h = 2.56 # Table from textbook; 9 degrees of freedom, n = 25, alpha = 0.05
     # samples = matrix[:, np.random.choice(matrix.shape[1], N)]
     samples = np.vstack([x[np.random.choice(matrix.shape[1], N)] for x in matrix])
     # import pdb; pdb.set_trace()
@@ -140,23 +140,18 @@ def mcb(matrix):
     return intervals
 
 
-def _wilcoxon(matrix):
+def mwu(matrix):
+    """
+        Performs pairwise Mann-Whitney U tests on the matrix of 
+        sample measurements for the 10 treatments. 
+    """
     t, n = matrix.shape
-    indices = np.repeat(range(t), n)
-    sorter = np.argsort(matrix.flatten())[::-1]
-    sorted_indices = indices[sorter]
-    ranks = np.arange(1, t * n + 1)
     for i in range(t):
-        rank_sum = ranks[sorted_indices == i].sum()
-        print('treatment {}: {}'.format(treatments[i], rank_sum))
-
-    for i in range(t):
-        values = []
+        pValues = []
         for j in range(t):
-            _, p = wilcoxon(matrix[i, :], matrix[j, :])
-            values.append(np.round(p, 3))
-        print(treatments[i] + ' & ' + ' & '.join(np.array(values, dtype=str)))
-            # print('{} v {} => p-value: {}'.format(treatments[i], treatments[j], np.round(p, 3)))
+            _, p = mannwhitneyu(matrix[i, :], matrix[j, :], alternative='two-sided')
+            pValues.append(np.round(p, 6))
+        print(treatments[i] + ' & ' + ' & '.join(np.array(pValues, dtype=str)))
 
 
 def anova(matrix):
@@ -215,27 +210,33 @@ def main(_):
     matrix = np.zeros((len(treatments), R))
 
     for year in range(2013, 2020):
-        matrix += build_treatment_matrix('score', year)
-        # import pdb; pdb.set_trace()
+        metric = 'count' # 'score' or 'count'
+        matrix += build_treatment_matrix(metric, year)
     as_latex(matrix)
     # exit(0)
     np.set_printoptions(linewidth=2000)
     print(matrix)
     print('MEANS', matrix.mean(axis=1).round())
     print('S', matrix.std(axis=1, ddof=1).round(2))
-    # import pdb; pdb.set_trace()
 
-    # print('Wilcoxon sum of ranks:')
-    # _wilcoxon(matrix)
-    # print('-' * 120)
     # print('One-way ANOVA')
     # anova(matrix)
     # print('-' * 120)
-    # print('Kruskal-Wallis H-test')
-    # kruskal_wallis(matrix)
-    # print('-' * 120)
-    boxplots(matrix)
 
+    # Kruskal-Wallis test to see whether there is 
+    # at least one pair with significant difference
+    print('Kruskal-Wallis H-test')
+    kruskal_wallis(matrix)
+    print('-' * 120)
+
+    # Pairwise Mann-Whitney U tests to see which treatments are better
+    print('Pairwise Mann-Whitney U tests')
+    mwu(matrix)
+    print('-' * 120)
+
+    # boxplots(matrix)
+
+    # MCB analysis for given metric
     print('MCB intervals:')
     intervals = mcb(matrix)
     pprint(intervals)
