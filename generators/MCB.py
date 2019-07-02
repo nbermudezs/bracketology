@@ -19,7 +19,7 @@ plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['figure.dpi'] = 150
 
 
-N = 13 # number of sampled replications
+N = 5 # number of sampled replications
 R = 25 # number of replications
 root = 'forPaper'
 treatments = [
@@ -120,22 +120,27 @@ def build_treatment_matrix(metric, year):
 
 
 def mcb(matrix):
-    h = 2.56 # Table from textbook; 9 degrees of freedom, n = 25, alpha = 0.05
+    h = 2.41 # Table from Bechhofer et al. Design and Analysis of Experiments textbook
+             # 240 degrees of freedom, p = t-1 = 9, alpha = 0.05
     # samples = matrix[:, np.random.choice(matrix.shape[1], N)]
-    samples = np.vstack([x[np.random.choice(matrix.shape[1], N)] for x in matrix])
+    # TODO: Why are we downsampling??
+    # samples = np.vstack([x[np.random.choice(matrix.shape[1], N)] for x in matrix])
+    samples = matrix
+    t, n = samples.shape
+    N = n
     # import pdb; pdb.set_trace()
     s_v = unbiased_std(samples)
     print('s_v', s_v)
     y_bar = np.mean(samples, axis=1)
     intervals = []
-    for i in range(y_bar.shape[0]):
+    for i in range(t):
         mu_i = y_bar[i]
         not_indices = np.setxor1d(np.indices(y_bar.shape), [i])
         others = y_bar[not_indices]
         # import pdb; pdb.set_trace()
         intervals.append((
-            int(mu_i - np.max(others) - h * s_v * np.sqrt(2. / N)),
-            int(mu_i - np.max(others) + h * s_v * np.sqrt(2. / N))
+            float(mu_i - np.max(others) - h * s_v * np.sqrt(2. / N)),
+            float(mu_i - np.max(others) + h * s_v * np.sqrt(2. / N))
         ))
     return intervals
 
@@ -244,4 +249,10 @@ def main(_):
 
 
 if __name__ == '__main__':
+    # matrix = np.array([[164,172,168,177,156,195],
+    #                 [178,191,197,182,185,177],
+    #                 [175,193,178,171,163,176],
+    #                 [155,166,149,164,170,168]])
+    # intervals = mcb(matrix)
+    # pprint(intervals)
     main(0)

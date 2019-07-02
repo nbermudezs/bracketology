@@ -8,7 +8,7 @@ __status__ = "Development"
 import json
 import numpy as np
 from collections import defaultdict
-
+from pprint import pprint
 
 CAPPED_ALPHA = 2.
 
@@ -98,7 +98,8 @@ def aggregate(brackets):
 
 
 def load_ref_brackets():
-    with open("allBracketsTTT.json") as f:
+    with open("allBracketsSince2002TTT.json") as f:
+    # with open("allBracketsTTT.json") as f:
         data = json.load(f)
         vectors = {
             int(bracket['bracket']['year']):
@@ -128,6 +129,8 @@ def compute_all_alphas(brackets):
             if round == 1:
                 alpha = np.sign(alpha) * min(abs(alpha), CAPPED_ALPHA)
                 result[round][s1] = {s2: alpha}
+                print('{0},{1}'.format(s1, s2))
+                print('{0},{1},{2}'.format(s1Wins, s2Wins, s1Wins + s2Wins))
             else:
                 alphas.append(alpha)
                 weights.append(s1Wins + s2Wins)
@@ -136,13 +139,16 @@ def compute_all_alphas(brackets):
             alpha = np.sign(alpha) * min(abs(alpha), CAPPED_ALPHA)
             result[round] = alpha
 
+    print()
+
     return result
 
 
 if __name__ == '__main__':
     from collections import defaultdict
     all_results = defaultdict(list)
-    for year in range(2013, 2020):
+    for year in range(2019, 2021):
+        print(year)
         result = compute_all_alphas([b for x, b in load_ref_brackets().items() if x < year])
         for r in [2, 3, 4, 5, 6]:
             all_results[r].append(result[r])
