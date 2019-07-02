@@ -18,9 +18,11 @@ plt.style.use("seaborn-white")
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['figure.dpi'] = 150
 
+end_year = 2019 # last year included
 
-N = 5 # number of sampled replications
+N = 13 # number of sampled replications (DO NOT USE)
 R = 25 # number of replications
+# root = 'preparedForMCB/forPaper'
 root = 'forPaper'
 treatments = [
     '25_1985',
@@ -65,23 +67,35 @@ metric_factor = {
 
 def process_file(f, has_summary_stats):
     result = {}
-    for year in range(2013, 2020):
+    for year in range(2013, end_year + 1):
         year_result = []
         next(f)  # skip year in header
         next(f)  # skip the "Batch" delimiter
         for _ in range(R):
             replication = next(f).replace('\n', '').split(',')
             observations = np.array(replication[1:-1])
-            if observations.shape[0] > 5:
-                observations = observations[[0, 2, 4, 6, 8]].astype(float)
-            else:
-                observations = observations.astype(float)
+            # if observations.shape[0] > 5:
+            #     observations = observations[[0, 2, 4, 6, 8]].astype(float)
+            # else:
+            #     observations = observations.astype(float)
+            # try:
+            observations = observations.astype(float)
+            # except ValueError:
+            #     print(replication)
+            #     print(observations)
             year_result.append(observations)
         if has_summary_stats:
             next(f)  # remove line with means
             next(f)  # remove line with std
         next(f)  # empty line at the end of each year
-        result[year] = np.vstack(year_result).T
+        try:
+            result[year] = np.vstack(year_result).T
+        except ValueError:
+            print(f.name)
+            pprint(year_result)
+            print('Year: {0}'.format(year))
+            raise
+
     return result
 
 
@@ -89,16 +103,22 @@ def prepare_data():
     for metric in data.keys():
         with open('{}/{}-baseline.csv'.format(root, metric)) as f:
             baseline = process_file(f, has_summary_stats=False)
+            # pprint(baseline)
         for treatment in treatments:
             print(treatment)
             print('=' * 80)
             with open('{}/{}-{}.csv'.format(root, metric, treatment)) as f:
-                treatment_results = process_file(f, has_summary_stats=True)
+                treatment_results = process_file(f, has_summary_stats=True) # Change to True for 2019 data, False for 2018 data
+                print(f.name)
+                pprint(treatment_results)
+
                 improvement = {}
-                for year in range(2013, 2020):
+                for year in range(2013, end_year + 1):
                     # print('diff', treatment_results[year] - baseline[year])
                     if metric == 'score':
-
+                        print(year)
+                        print(treatment_results[year].shape)
+                        print(baseline[year].shape)
                         print(year, (treatment_results[year] - baseline[year]).sum(axis=1))
                         # import pdb; pdb.set_trace()
                     improvement[year] = (treatment_results[year] - baseline[year]).sum(axis=0) * metric_factor[metric][year]
@@ -214,7 +234,7 @@ def main(_):
     prepare_data()
     matrix = np.zeros((len(treatments), R))
 
-    for year in range(2013, 2020):
+    for year in range(2013, end_year + 1):
         metric = 'count' # 'score' or 'count'
         matrix += build_treatment_matrix(metric, year)
     as_latex(matrix)
