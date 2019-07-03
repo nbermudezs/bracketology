@@ -23,7 +23,8 @@ end_year = 2019 # last year included
 N = 13 # number of sampled replications (DO NOT USE)
 R = 25 # number of replications
 # root = 'preparedForMCB/forPaper'
-root = 'forPaper'
+root = 'forPaper-Bradley-Terry'
+# root = 'forPaper'
 treatments = [
     '25_1985',
     '26_1985',
