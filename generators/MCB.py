@@ -19,6 +19,8 @@ plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['figure.dpi'] = 150
 
 end_year = 2019 # last year included
+nYearsExperiments = end_year - 2013 + 1 # Number of years for which bracket pools are generated
+nModels = 5 # Five models in each baseline set (Power or B-T)
 
 N = 13 # number of sampled replications (DO NOT USE)
 R = 25 # number of replications
@@ -104,25 +106,18 @@ def prepare_data():
     for metric in data.keys():
         with open('{}/{}-baseline.csv'.format(root, metric)) as f:
             baseline = process_file(f, has_summary_stats=False)
-            # pprint(baseline)
         for treatment in treatments:
             print(treatment)
             print('=' * 80)
             with open('{}/{}-{}.csv'.format(root, metric, treatment)) as f:
                 treatment_results = process_file(f, has_summary_stats=True) # Change to True for 2019 data, False for 2018 data
-                print(f.name)
-                pprint(treatment_results)
 
                 improvement = {}
                 for year in range(2013, end_year + 1):
-                    # print('diff', treatment_results[year] - baseline[year])
                     if metric == 'score':
-                        print(year)
-                        print(treatment_results[year].shape)
-                        print(baseline[year].shape)
                         print(year, (treatment_results[year] - baseline[year]).sum(axis=1))
                         # import pdb; pdb.set_trace()
-                    improvement[year] = (treatment_results[year] - baseline[year]).sum(axis=0) * metric_factor[metric][year]
+                    improvement[year] = (treatment_results[year] - baseline[year]).sum(axis=0) * metric_factor[metric][year] / nYearsExperiments / nModels
                 data[metric][treatment] = improvement
 
 
@@ -220,8 +215,8 @@ def as_latex(matrix):
     all_data = np.concatenate((
         labels,
         # matrix.astype(int).astype(str),
-        means.astype(int).astype(str),
-        std.astype(int).astype(str),
+        means.astype(float).astype(str),
+        std.astype(float).astype(str),
         phi.astype(int).astype(str)), axis=1).astype(str)
     # data = np.concatenate((labels, all_data[:, 15:]), axis=1)
     # import pdb; pdb.set_trace()
@@ -242,7 +237,7 @@ def main(_):
     # exit(0)
     np.set_printoptions(linewidth=2000)
     print(matrix)
-    print('MEANS', matrix.mean(axis=1).round())
+    print('MEANS', matrix.mean(axis=1))
     print('S', matrix.std(axis=1, ddof=1).round(2))
 
     # print('One-way ANOVA')
