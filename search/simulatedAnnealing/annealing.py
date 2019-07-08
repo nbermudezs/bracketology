@@ -15,7 +15,7 @@ import sys
 import time
 from collections import defaultdict
 from itertools import combinations
-from triplets.priors.PriorDistributions import read_data
+from PriorDistributions import read_data
 import matplotlib.pyplot as plt
 
 
@@ -209,7 +209,7 @@ std_functions = {
 }
 
 
-with open('allBrackets{}.json'.format(FMT)) as f:
+with open('../../generators/allBrackets{}.json'.format(FMT)) as f:
     brackets = {
         int(x['bracket']['year']): np.array(list(x['bracket']['fullvector']), dtype=int)
         for x in json.load(f)['brackets']}
@@ -240,8 +240,6 @@ def g(P, trials):
 def estimate_score_distribution(ref, B, indices, trials):
     distribution = defaultdict(lambda: 1)
     _ = [distribution[score] for score in range(0, len(indices) * 4 + 1)]
-
-    import pdb; pdb.set_trace()
 
     for trial in range(trials):
         trial_score = 0
@@ -479,7 +477,6 @@ def run_annealing(model, start_year, stop_year):
         unpooled, pooled = read_data(model['format'], year)
         pooled = pooled.astype(int).values
         P = np.mean(pooled, axis=0)
-        import pdb; pdb.set_trace()
         P = np.array(perturbed_ps['model23'])
 
         # P = np.array([1.0, 0.5928450489751618, 0.6950938557087003, 0.9189491423484074, 0.721206790987267, 1.0, 0.7345229047483148, 1.0, 0.0, 1.0, 1.0, 1.0, 0.8031569810310453, 0.9244015862122775, 1.0])
@@ -487,24 +484,9 @@ def run_annealing(model, start_year, stop_year):
         print('=' * 50 + 'Baseline for data before {}'.format(year) + '=' * 50)
         prev_P, prev_pr, count_df = experiment(P, add_noise=False, trials=100000, model=model)
         store_plot_and_csv(count_df, year - 1, 'model23_uni5', optimized_years=optimized_years)
-        exit(1)
 
         if not model.get('closed_form', False):
             store_plot_and_csv(count_df, year - 1, 'model23', optimized_years=optimized_years)
-        # this is used to set a single bit to the optimal value we found so far
-        # P[0] = 1.0
-        # P[1] = 0.4231184017779921
-        # P[2] = 0.752286265633227
-        # P[3] = 0.9491817654669973
-        # P[4] = 0.721206790987267
-        # P[5] = 1.0
-        # P[6] = 0.7345229047483148
-        # P[7] = 1.0
-
-        # prev_P = np.array([ 1.        ,  0.49166667,  0.63333333,  0.79166667,  0.65833333,
-        #     0.85      ,  0.60833333,  0.94166667,  0.86666667,  0.49166667,
-        #     0.475     ,  0.35      ,  0.76666667,  0.40833333,  0.60833333])
-        # prev_pr = 258.53736133404186
         print_setup(prev_P, prev_pr)
 
         pr_0 = prev_pr
