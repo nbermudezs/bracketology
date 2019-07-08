@@ -98,8 +98,8 @@ def aggregate(brackets):
 
 
 def load_ref_brackets():
-    with open("allBracketsSince2002TTT.json") as f:
-    # with open("allBracketsTTT.json") as f:
+    # with open("allBracketsSince2002TTT.json") as f:
+    with open("allBracketsTTT.json") as f:
         data = json.load(f)
         vectors = {
             int(bracket['bracket']['year']):
@@ -147,7 +147,7 @@ def compute_all_alphas(brackets):
 if __name__ == '__main__':
     from collections import defaultdict
     all_results = defaultdict(list)
-    for year in range(2019, 2021):
+    for year in range(2013, 2021):
         print(year)
         result = compute_all_alphas([b for x, b in load_ref_brackets().items() if x < year])
         for r in [2, 3, 4, 5, 6]:

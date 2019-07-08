@@ -6,7 +6,7 @@ __status__ = "Development"
 
 
 import numpy as np
-from preprocessForBradleyTerry import preprocess
+from utils.preprocessForBradleyTerry import preprocess
 
 
 def fit(limit_year):
