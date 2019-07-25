@@ -18,6 +18,8 @@ from pprint import pprint
 # Given a max pool size M, can then return the M most likely brackets.  
 # 
 ######################################################################
+NUM_REGION_VECTORS = 32768
+
 # Historical brackets
 historicalBrackets = {
 	'2019': '100111011000100100111011000110100011011100111101101111100001010', 
@@ -67,6 +69,27 @@ def applyRoundResults(seeds, results):
 	return [seeds[2*i] * results[i] + seeds[2*i+1] * (1 - results[i]) for i in range(nGames)]
 
 
+def regionVectorFromHex(regionHex):
+	"""Convert a region vector's 4-digit hexadecimal representation
+	   (with a leading 0) into a list of 15 0's or 1's. 
+	"""
+	bitString = bin(int(regionHex, 16))[2:].zfill(15)
+	return [int(bitString[i]) for i in range(len(bitString))]
+
+
+def prettifyRegionVector(regionHex):
+	"""Returns a more descriptive string for the 
+	   given 4-digit hex representation of a region vector. 
+	"""
+	regionVector = regionVectorFromHex(regionHex)
+	seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15]
+	r1Winners = applyRoundResults(seeds, regionVector[:8])
+	r2Winners = applyRoundResults(r1Winners, regionVector[8:12])
+	r3Winners = applyRoundResults(r2Winners, regionVector[12:14])
+	r4Winner = applyRoundResults(r3Winners, regionVector[14:])
+	return '{0} {1} {2} {3}'.format(r1Winners, r2Winners, r3Winners, r4Winner)
+
+
 def getWinProbability(team1, team2, r):
 	"""Returns the predicted probability that team1 defeats team2 
 	   in the given round r. 
@@ -111,15 +134,19 @@ def logLikelihood(bracket):
 	   Could be updated to allow user to specify model 
 	   to use in getWinProbability(). 
 
+	   Also handles a single region vector, if provided
+
 	   Arguments:
 	   bracket - a list of 63 'bits' (0 or 1) in 'TTT' format, 
 	             i.e., 1 if the 'upper' team wins
 	"""
 	totalLogProb = 0
 
+	isSingleRegion = len(bracket) == 15
+
 	# Rounds 1 through 4
 	regionWinners = []
-	for region in range(4):
+	for region in range(1 if isSingleRegion else 4):
 		start = 15 * region # Offset for index of first game in region
 		end = start + 8 	# Round 1 has 8 games per region
 		regionVec = bracket[start:end]
@@ -152,6 +179,10 @@ def logLikelihood(bracket):
 		# Only remaining team in the region after four rounds 
 		# is the region winner
 		regionWinners.append(seeds[0])
+
+	# If only a single region, then haven't reached Rounds 5 and 6
+	if isSingleRegion:
+		return totalLogProb
 
 	# Round 5
 	f4Game1 = bracket[-3]
@@ -255,7 +286,7 @@ def generateAllRegionVectors():
 	   in TTT format as 4-digit hexadecimal strings with a leading 0. 
 	"""
 	regionVectors = []
-	for i in range(32768):
+	for i in range(NUM_REGION_VECTORS):
 		regionVectors.append('{0:04x}'.format(i))
 	return regionVectors
 
@@ -278,6 +309,27 @@ def evaluateAndSortBrackets(brackets):
 	dt = np.dtype([('bracketString', np.unicode_, 63), ('log-lhood', np.float64, 1)])
 	bracketsLogLhoods = np.array([(brackets[i], logLhoods[i]) for i in range(len(brackets))], dtype=dt)
 	return np.sort(bracketsLogLhoods, order=['log-lhood'], axis=0)[::-1]
+
+
+def evaluateAndSortRegionBrackets(regionStrings):
+	"""Computes the log-likelihood of each of the given region 
+	   strings and sorts them in decreasing order of likelihood. 
+	   Returns both the region strings and their log-likelihoods 
+	   in a structured numpy array. 
+
+	   Arguments:
+	   regionStrings - A list of 4-digit hexadecimal region strings 
+	   				   in 'TTT' format with a leading zero
+	"""
+	logLhoods = []
+	for regionString in regionStrings:
+		regionVector = regionVectorFromHex(regionString)
+		logLhoods.append(logLikelihood(regionVector))
+
+	# Create array for bracket strings and log-likelihoods
+	dt = np.dtype([('regionString', np.unicode_, 15), ('log-lhood', np.float64, 1)])
+	regionLogLhoods = np.array([(regionStrings[i], logLhoods[i]) for i in range(len(regionStrings))], dtype=dt)
+	return np.sort(regionLogLhoods, order=['log-lhood'], axis=0)[::-1]
 
 
 def scoreBracket(bracketVector, actualResultsVector, isPickFavorite = False):
@@ -353,26 +405,29 @@ if __name__ == '__main__':
 	# print('All Ones Log-likelihood: {0:.3f}'.format(logLikelihood(bracket)))
 	
 	# Test all "special" brackets
-	for bracketKey in specialBrackets.keys():
-		bracketString = specialBrackets[bracketKey]
-		bracket = [int(bracketString[i]) for i in range(63)]
-		print('{0} log-likelihood: {1:.3f}\n'.format(bracketKey, logLikelihood(bracket)))
+	# for bracketKey in specialBrackets.keys():
+	# 	bracketString = specialBrackets[bracketKey]
+	# 	bracket = [int(bracketString[i]) for i in range(63)]
+	# 	print('{0} log-likelihood: {1:.3f}\n'.format(bracketKey, logLikelihood(bracket)))
 
 
-	brackets = generatePossibleBrackets(100)
-	print('Generated {0} brackets.'.format(len(brackets)))
+	# brackets = generatePossibleBrackets(100)
+	# print('Generated {0} brackets.'.format(len(brackets)))
 
-	sortedArray = evaluateAndSortBrackets(brackets)
+	# Generate all 32,768 possible region vectors and score them
+	regionStrings = generateAllRegionVectors()
+	sortedArray = evaluateAndSortRegionBrackets(regionStrings)
 	print(sortedArray[0])
+	print(sortedArray[1])
 	print('...')
 	print(sortedArray[-1])
 
-	for year in range(2013, 2019 + 1):
-		historicalVector = [int(historicalBrackets[str(year)][i]) for i in range(63)]
-		scores = []
-		for bracketData in sortedArray: 
-			bracketVector = [int(bracketData[0][i]) for i in range(63)]
-			scores.append(scoreBracket(bracketVector, historicalVector)[0])
-		scores.sort()
-		pprint(scores[-1])
+	# for year in range(2013, 2019 + 1):
+	# 	historicalVector = [int(historicalBrackets[str(year)][i]) for i in range(63)]
+	# 	scores = []
+	# 	for bracketData in sortedArray: 
+	# 		bracketVector = [int(bracketData[0][i]) for i in range(63)]
+	# 		scores.append(scoreBracket(bracketVector, historicalVector)[0])
+	# 	scores.sort()
+	# 	pprint(scores[-1])
 
