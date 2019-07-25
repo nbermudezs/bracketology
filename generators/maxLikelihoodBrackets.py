@@ -1,9 +1,11 @@
+import csv
 import json
 import math
 # import matplotlib.pyplot as plt
 import numpy as np
 import os
 from pprint import pprint
+import random
 
 ######################################################################
 # Author: 	Ian Ludden
@@ -97,11 +99,11 @@ def getWinProbability(team1, team2, r):
 
 	   Arguments:
 	   team1 - the "upper" team in the standard bracket representation
-	           dict with seed and region
+			   dict with seed and region
 	   team2 - the "lower" team
-	           dict with seed and region
-	   r     - the round number
-	           integer from 1 to 6
+			   dict with seed and region
+	   r	 - the round number
+			   integer from 1 to 6
 	"""
 	# Currently using Power Model
 	s1 = team1['seed']
@@ -138,7 +140,7 @@ def logLikelihood(bracket):
 
 	   Arguments:
 	   bracket - a list of 63 'bits' (0 or 1) in 'TTT' format, 
-	             i.e., 1 if the 'upper' team wins
+				 i.e., 1 if the 'upper' team wins
 	"""
 	totalLogProb = 0
 
@@ -233,10 +235,10 @@ def generatePossibleBrackets(M):
 
 	   Arguments: 
 	   M - the number of most likely brackets we want to 'catch'
-	       (currently unused)
+		   (currently unused)
 	"""
 	# TODO: I bet it's actually more likely that some 8 vs 9 games flip 
-	# than the F4 seeds change. 
+	# than the F4 seeds change. (Confirmed by region vector experiments)
 
 	# Strings for regions, indexed by seed winning region. 
 	# All other games are pick favorite
@@ -332,6 +334,88 @@ def evaluateAndSortRegionBrackets(regionStrings):
 	return np.sort(regionLogLhoods, order=['log-lhood'], axis=0)[::-1]
 
 
+def sampleBracketsAsRegions(nSamples, T=100):
+	"""Samples brackets by the following procedure:
+	   1. Randomly sample four region vectors 
+		  (i.i.d.) from the most likely T region vectors, 
+		  according to the power model. 
+	   2. Select the outcomes of the last three games (F4 and NCG) 
+		  using the power model. 
+
+	   Returns list brackets as lists of 63 0's and/or 1's. 
+
+	   Arguments:
+	   nSamples - the number of samples to generate
+	   T - cutoff for which region vectors to sample
+	"""
+	brackets = []
+	
+	for sampleIndex in range(nSamples):
+		# 1. Sample four region vectors
+		regionVecs = []
+		regionWinners = []
+		for i in range(4):
+			regionHex = sampleMLRegion(T)
+			regionVector = regionVectorFromHex(regionHex)
+			regionVecs.append(regionVector)
+			# 1.1 Determine region winners (F4 seeds)
+			seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15]
+			r1Winners = applyRoundResults(seeds, regionVector[:8])
+			r2Winners = applyRoundResults(r1Winners, regionVector[8:12])
+			r3Winners = applyRoundResults(r2Winners, regionVector[12:14])
+			r4Winner = applyRoundResults(r3Winners, regionVector[14:])
+			regionWinners.append(r4Winner)
+
+		# 2. Select outcomes of F4/NCG games (Rounds 5, 6)
+		# F4
+		team0 = {'seed': regionWinners[0], 'region': 0}
+		team1 = {'seed': regionWinners[1], 'region': 1}
+		team2 = {'seed': regionWinners[2], 'region': 2}
+		team3 = {'seed': regionWinners[3], 'region': 3}
+		winProb1 = getWinProbability(team0, team1, r=5)
+		winProb2 = getWinProbability(team2, team3, r=5)
+		f4Result1 = 1 if random.random() < winProb1 else 0
+		f4Result2 = 1 if random.random() < winProb2 else 0
+		ncgSeeds = applyRoundResults(regionWinners, [f4Result1, f4Result2])
+
+		# NCG
+		ncgTeam1 = {'seed': ncgSeeds[0], 'region': -1}
+		ncgTeam2 = {'seed': ncgSeeds[1], 'region': -1}
+		winProb = getWinProbability(ncgTeam1, ncgTeam2, r=6)
+		ncgResult = 1 if random.random() < winProb else 0
+		brackets.append(regionVecs[0] + regionVecs[1] + regionVecs[2] + regionVecs[3] + [f4Result1, f4Result2, ncgResult])
+
+	return brackets
+
+
+def sampleMLRegion(T):
+	"""Randomly samples a region vector from among the T 
+	   most likely according to the distribution defined 
+	   by their predicted likelihoods. 
+	"""
+	# TODO: Probably better to implement 
+	#	   the alias method eventually, 
+	#	   especially if we want a large sample size.
+	T = min(T, 32768) # Max number of region vectors is 32768
+	inputFilepath = 'regionVectorsSortedTop100.csv' if T <= 100 else 'regionVectorsSortedAll.csv'
+	with open(inputFilepath, 'r') as f:
+		reader = csv.reader(f)
+		headers = next(reader)
+		rawData = list(reader)
+	
+	regionHexs = []
+	lhoods = np.zeros(T)
+	for i in range(T):
+		item = rawData[i]
+		regionHexs.append(item[0][2:])
+		lhoods[i] = item[2]
+
+	totalProb = np.sum(lhoods)
+	scaledLhoods = np.divide(lhoods, totalProb)
+
+	return random.choices(regionHexs, weights=scaledLhoods)[0]
+
+
 def scoreBracket(bracketVector, actualResultsVector, isPickFavorite = False):
 	"""Scores the given bracket vector according to the 
 	   ESPN Bracket Challenge scoring system. The isPickFavorite
@@ -414,20 +498,26 @@ if __name__ == '__main__':
 	# brackets = generatePossibleBrackets(100)
 	# print('Generated {0} brackets.'.format(len(brackets)))
 
-	# Generate all 32,768 possible region vectors and score them
-	regionStrings = generateAllRegionVectors()
-	sortedArray = evaluateAndSortRegionBrackets(regionStrings)
-	print(sortedArray[0])
-	print(sortedArray[1])
-	print('...')
-	print(sortedArray[-1])
+	# # Generate all 32,768 possible region vectors and print with log-likelihoods
+	# regionStrings = generateAllRegionVectors()
+	# sortedArray = evaluateAndSortRegionBrackets(regionStrings)
+	# for pair in sortedArray:
+	# 	print('\"0x{0}\",{1:.4f},{2}'.format(pair[0], pair[1], prettifyRegionVector(pair[0])))
 
-	# for year in range(2013, 2019 + 1):
-	# 	historicalVector = [int(historicalBrackets[str(year)][i]) for i in range(63)]
-	# 	scores = []
-	# 	for bracketData in sortedArray: 
-	# 		bracketVector = [int(bracketData[0][i]) for i in range(63)]
-	# 		scores.append(scoreBracket(bracketVector, historicalVector)[0])
-	# 	scores.sort()
-	# 	pprint(scores[-1])
+	# Sample some brackets using sampleBracketsAsRegions and see how they score
+	nBrackets = 100
+	brackets = sampleBracketsAsRegions(nBrackets)
+
+	# print(sortedArray[0])
+	# print(sortedArray[1])
+	# print('...')
+	# print(sortedArray[-1])
+
+	for year in range(2013, 2019 + 1):
+		historicalVector = [int(historicalBrackets[str(year)][i]) for i in range(63)]
+		scores = []
+		for bracketVector in brackets:
+			scores.append(scoreBracket(bracketVector, historicalVector)[0])
+		scores.sort()
+		pprint(scores[-1])
 
