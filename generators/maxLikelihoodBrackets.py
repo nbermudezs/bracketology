@@ -334,6 +334,67 @@ def evaluateAndSortRegionBrackets(regionStrings):
 	return np.sort(regionLogLhoods, order=['log-lhood'], axis=0)[::-1]
 
 
+def sampleBracketsPowerModel(nSamples):
+	"""Samples the given number of brackets 
+	   by applying the power model 
+	   forward (from Round 1 through Round 6). 
+	"""
+	brackets = []
+	for sampleIndex in range(nSamples):
+		bracket = []
+		regionWinners = np.zeros(4)
+		for regionIndex in range(4):
+			regionVector, regionWinners[regionIndex] = sampleRegionPowerModel()
+			bracket += regionVector
+		# 2. Select outcomes of F4/NCG games (Rounds 5, 6)
+		team0 = {'seed': regionWinners[0], 'region': 0}
+		team1 = {'seed': regionWinners[1], 'region': 1}
+		team2 = {'seed': regionWinners[2], 'region': 2}
+		team3 = {'seed': regionWinners[3], 'region': 3}
+		winProb1 = getWinProbability(team0, team1, r=5)
+		winProb2 = getWinProbability(team2, team3, r=5)
+		f4Result1 = 1 if random.random() < winProb1 else 0
+		f4Result2 = 1 if random.random() < winProb2 else 0
+		bracket.append(f4Result1)
+		bracket.append(f4Result2)
+		ncgSeeds = applyRoundResults(regionWinners, [f4Result1, f4Result2])
+
+		# NCG
+		ncgTeam1 = {'seed': ncgSeeds[0], 'region': -1}
+		ncgTeam2 = {'seed': ncgSeeds[1], 'region': -1}
+		winProb = getWinProbability(ncgTeam1, ncgTeam2, r=6)
+		ncgResult = 1 if random.random() < winProb else 0
+		bracket.append(ncgResult)
+		brackets.append(bracket)
+	return brackets
+
+
+def sampleRegionPowerModel():
+	"""Samples a region vector using the basic power model. 
+	   
+	   Returns [regionVector, regionWinner], 
+	   where regionVector is list of 15 0s/1s and 
+	   regionWinner is the seed of the regional champion.
+	"""
+	regionVector = []
+	# Loop through regional rounds R64, R32, and S16
+	seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15]
+	for roundNum in range(1, 5):
+		numGames = int(len(seeds) / 2)
+		newSeeds = []
+		for gameNum in range(numGames):
+			s1 = seeds[2 * gameNum]
+			s2 = seeds[2 * gameNum + 1]
+			p = getWinProbability({'seed': s1}, {'seed': s2}, r=roundNum)
+
+			rnd = random.random()
+			regionVector.append(1 if rnd < p else 0)
+			newSeeds.append(s1 if rnd < p else s2)
+		seeds = newSeeds
+
+	return [regionVector, seeds[0]]
+
+
 def sampleBracketsAsRegions(nSamples, T=100):
 	"""Samples brackets by the following procedure:
 	   1. Randomly sample four region vectors 
@@ -364,7 +425,7 @@ def sampleBracketsAsRegions(nSamples, T=100):
 			r2Winners = applyRoundResults(r1Winners, regionVector[8:12])
 			r3Winners = applyRoundResults(r2Winners, regionVector[12:14])
 			r4Winner = applyRoundResults(r3Winners, regionVector[14:])
-			regionWinners.append(r4Winner)
+			regionWinners.append(r4Winner[0])
 
 		# 2. Select outcomes of F4/NCG games (Rounds 5, 6)
 		# F4
@@ -465,7 +526,7 @@ def scoreBracket(bracketVector, actualResultsVector, isPickFavorite = False):
 	isCorrectFirstSemifinal = (finalFourVector[0] == actualFinalFourVector[0]) and ((finalFourVector[0] == 1 and (regionWinners[0] == actualRegionWinners[0])) or (finalFourVector[0] == 0 and (regionWinners[1] == actualRegionWinners[1])))
 	if isCorrectFirstSemifinal:
 		roundScores[5] += 160
-
+	
 	isCorrectSecondSemifinal = (finalFourVector[1] == actualFinalFourVector[1]) and ((finalFourVector[1] == 1 and (regionWinners[2] == actualRegionWinners[2])) or (finalFourVector[1] == 0 and (regionWinners[3] == actualRegionWinners[3])))
 
 	if isCorrectSecondSemifinal:
@@ -505,7 +566,9 @@ if __name__ == '__main__':
 	# 	print('\"0x{0}\",{1:.4f},{2}'.format(pair[0], pair[1], prettifyRegionVector(pair[0])))
 
 	# Sample some brackets using sampleBracketsAsRegions and see how they score
-	nBrackets = 100
+	nBrackets = 250
+
+	print('Most Likely Regions Model')
 	brackets = sampleBracketsAsRegions(nBrackets)
 
 	# print(sortedArray[0])
@@ -520,4 +583,16 @@ if __name__ == '__main__':
 			scores.append(scoreBracket(bracketVector, historicalVector)[0])
 		scores.sort()
 		pprint(scores[-1])
+		print()
 
+	print('\nPower Model')
+	brackets = sampleBracketsPowerModel(nBrackets)
+
+	for year in range(2013, 2019 + 1):
+		historicalVector = [int(historicalBrackets[str(year)][i]) for i in range(63)]
+		scores = []
+		for bracketVector in brackets:
+			scores.append(scoreBracket(bracketVector, historicalVector)[0])
+		scores.sort()
+		pprint(scores[-1])
+		print()
