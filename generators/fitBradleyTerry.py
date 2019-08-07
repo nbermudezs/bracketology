@@ -77,7 +77,7 @@ if __name__ == '__main__':
     if not os.path.exists('bradleyTerry'):
         os.makedirs('bradleyTerry')
 
-    for year in range(2013, 2020):
+    for year in range(2020, 2021):
         p = fit(limit_year=year)
         with open('bradleyTerry/probs-{}.csv'.format(year), 'w') as f:
             f.write('"","component","player1","player2","prob1wins","prob2wins"' + '\n')

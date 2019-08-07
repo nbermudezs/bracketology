@@ -6,7 +6,7 @@ __status__ = "Development"
 
 
 import pandas as pd
-from triplets.priors.PriorDistributions import read_data
+from utils.PriorDistributions import read_data
 
 
 def preprocess(year):
